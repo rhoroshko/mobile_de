@@ -1964,20 +1964,33 @@ namespace mobile_de
             }
         }
 
+
+        //clear_all
         private void clear_search_config_button_Click(object sender, EventArgs e)
         {
-            clear_condition();
-            clear_make_model_version();
-            clear_make_model_version_eliminate();
-            clear_vehicle_type();
-            clear_vehicle_search();
-            clear_engine();
-            clear_features();
-            clear_offer_details();
-            clear_environment();
-            clear_vehicle_history();
+            var confirmResult = MessageBox.Show("Вы точно хотите очистить всё?",
+                                    "Очистить всё",
+                                    MessageBoxButtons.YesNoCancel);
+            if (confirmResult == DialogResult.Yes)
+            {
+                clear_condition();
+                clear_make_model_version();
+                clear_make_model_version_eliminate();
+                clear_vehicle_type();
+                clear_vehicle_search();
+                clear_engine();
+                clear_features();
+                clear_offer_details();
+                clear_environment();
+                clear_vehicle_history();
+            }
+            else
+            {
+            }
         }
 
+
+        //create_scores_config
         private void create_scores_config_file_button_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -1988,6 +2001,8 @@ namespace mobile_de
             scores_config_form.ShowDialog();
         }
 
+
+        //search_cars
         private void search_cars_button_Click(object sender, EventArgs e)
         {
 

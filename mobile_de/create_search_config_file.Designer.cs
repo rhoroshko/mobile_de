@@ -3836,7 +3836,7 @@
             this.clear_search_config_button.Name = "clear_search_config_button";
             this.clear_search_config_button.Size = new System.Drawing.Size(85, 25);
             this.clear_search_config_button.TabIndex = 1;
-            this.clear_search_config_button.Text = "Очистить все";
+            this.clear_search_config_button.Text = "Очистить всё";
             this.clear_search_config_button.UseVisualStyleBackColor = true;
             this.clear_search_config_button.Click += new System.EventHandler(this.clear_search_config_button_Click);
             // 

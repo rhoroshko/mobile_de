@@ -1301,6 +1301,7 @@ namespace mobile_de
 
 
 
+        //load
         private void load_scores_config_file_button_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
@@ -1311,8 +1312,17 @@ namespace mobile_de
             }
         }
 
+
+        //save
         private void save_scores_config_file_button_Click(object sender, EventArgs e)
         {
+            Boolean wrong_data = validate_budget();
+
+            if (wrong_data == true)
+            {
+                return;
+            }
+
             string scores_config = "";
 
             SaveFileDialog saveFileDialog = new SaveFileDialog();
@@ -1323,11 +1333,24 @@ namespace mobile_de
             }
         }
 
+
+        //clear_all
         private void clear_scores_config_button_Click(object sender, EventArgs e)
         {
-
+            var confirmResult = MessageBox.Show("Вы точно хотите очистить всё?",
+                                     "Очистить всё",
+                                     MessageBoxButtons.YesNoCancel);
+            if (confirmResult == DialogResult.Yes)
+            {
+                budget_textBox.Text = String.Empty;
+            }
+            else
+            {
+            }
         }
 
+
+        //create_search_config
         private void create_search_config_file_button_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -1338,6 +1361,8 @@ namespace mobile_de
             search_config_form.ShowDialog();
         }
 
+
+        //search_cars
         private void search_cars_button_Click(object sender, EventArgs e)
         {
 
