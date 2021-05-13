@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(create_scores_config_file));
             this.create_search_config_file_button = new System.Windows.Forms.Button();
             this.search_cars_button = new System.Windows.Forms.Button();
@@ -35,39 +36,39 @@
             this.load_scores_config_file_button = new System.Windows.Forms.Button();
             this.clear_scores_config_button = new System.Windows.Forms.Button();
             this.score_config_main_panel = new System.Windows.Forms.Panel();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
-            this.listBox9 = new System.Windows.Forms.ListBox();
-            this.listBox10 = new System.Windows.Forms.ListBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.listBox7 = new System.Windows.Forms.ListBox();
-            this.listBox8 = new System.Windows.Forms.ListBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.listBox5 = new System.Windows.Forms.ListBox();
-            this.listBox6 = new System.Windows.Forms.ListBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
+            this.score_6_groupBox = new System.Windows.Forms.GroupBox();
+            this.score_6_tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.unselected_6_listBox = new System.Windows.Forms.ListBox();
+            this.selected_6_listBox = new System.Windows.Forms.ListBox();
+            this.unselected_6_filter_textBox = new System.Windows.Forms.TextBox();
+            this.selected_6_filter_textBox = new System.Windows.Forms.TextBox();
+            this.score_6_panel = new System.Windows.Forms.Panel();
+            this.unselect_all_6_button = new System.Windows.Forms.Button();
+            this.unselect_6_button = new System.Windows.Forms.Button();
+            this.select_all_6_button = new System.Windows.Forms.Button();
+            this.select_6_button = new System.Windows.Forms.Button();
+            this.score_5_groupBox = new System.Windows.Forms.GroupBox();
+            this.score_5_tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.unselected_5_listBox = new System.Windows.Forms.ListBox();
+            this.selected_5_listBox = new System.Windows.Forms.ListBox();
+            this.unselected_5_filter_textBox = new System.Windows.Forms.TextBox();
+            this.selected_5_filter_textBox = new System.Windows.Forms.TextBox();
+            this.score_5_panel = new System.Windows.Forms.Panel();
+            this.unselect_all_5_button = new System.Windows.Forms.Button();
+            this.unselect_5_button = new System.Windows.Forms.Button();
+            this.select_all_5_button = new System.Windows.Forms.Button();
+            this.select_5_button = new System.Windows.Forms.Button();
+            this.score_4_groupBox = new System.Windows.Forms.GroupBox();
+            this.score_4_tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.unselected_4_listBox = new System.Windows.Forms.ListBox();
+            this.selected_4_listBox = new System.Windows.Forms.ListBox();
+            this.unselected_4_filter_textBox = new System.Windows.Forms.TextBox();
+            this.selected_4_filter_textBox = new System.Windows.Forms.TextBox();
+            this.score_4_panel = new System.Windows.Forms.Panel();
+            this.unselect_all_4_button = new System.Windows.Forms.Button();
+            this.unselect_4_button = new System.Windows.Forms.Button();
+            this.select_all_4_button = new System.Windows.Forms.Button();
+            this.select_4_button = new System.Windows.Forms.Button();
             this.score_3_groupBox = new System.Windows.Forms.GroupBox();
             this.score_3_tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.unselected_3_listBox = new System.Windows.Forms.ListBox();
@@ -90,17 +91,6 @@
             this.unselect_2_button = new System.Windows.Forms.Button();
             this.select_all_2_button = new System.Windows.Forms.Button();
             this.select_2_button = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.listBox2 = new System.Windows.Forms.ListBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.budget_groupBox = new System.Windows.Forms.GroupBox();
             this.budget_textBox = new System.Windows.Forms.TextBox();
             this.budget_clean_button = new System.Windows.Forms.Button();
@@ -115,29 +105,83 @@
             this.unselect_1_button = new System.Windows.Forms.Button();
             this.select_all_1_button = new System.Windows.Forms.Button();
             this.select_1_button = new System.Windows.Forms.Button();
+            this.score_7_groupBox = new System.Windows.Forms.GroupBox();
+            this.score_7_tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.unselected_7_listBox = new System.Windows.Forms.ListBox();
+            this.selected_7_listBox = new System.Windows.Forms.ListBox();
+            this.unselected_7_filter_textBox = new System.Windows.Forms.TextBox();
+            this.selected_7_filter_textBox = new System.Windows.Forms.TextBox();
+            this.score_7_panel = new System.Windows.Forms.Panel();
+            this.unselect_all_7_button = new System.Windows.Forms.Button();
+            this.unselect_7_button = new System.Windows.Forms.Button();
+            this.select_all_7_button = new System.Windows.Forms.Button();
+            this.select_7_button = new System.Windows.Forms.Button();
+            this.score_8_groupBox = new System.Windows.Forms.GroupBox();
+            this.score_8_tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.unselected_8_listBox = new System.Windows.Forms.ListBox();
+            this.selected_8_listBox = new System.Windows.Forms.ListBox();
+            this.unselected_8_filter_textBox = new System.Windows.Forms.TextBox();
+            this.selected_8_filter_textBox = new System.Windows.Forms.TextBox();
+            this.score_8_panel = new System.Windows.Forms.Panel();
+            this.unselect_all_8_button = new System.Windows.Forms.Button();
+            this.unselect_8_button = new System.Windows.Forms.Button();
+            this.select_all_8_button = new System.Windows.Forms.Button();
+            this.select_8_button = new System.Windows.Forms.Button();
+            this.score_9_groupBox = new System.Windows.Forms.GroupBox();
+            this.score_9_tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.unselected_9_listBox = new System.Windows.Forms.ListBox();
+            this.selected_9_listBox = new System.Windows.Forms.ListBox();
+            this.unselected_9_filter_textBox = new System.Windows.Forms.TextBox();
+            this.selected_9_filter_textBox = new System.Windows.Forms.TextBox();
+            this.score_9_panel = new System.Windows.Forms.Panel();
+            this.unselect_all_9_button = new System.Windows.Forms.Button();
+            this.unselect_9_button = new System.Windows.Forms.Button();
+            this.select_all_9_button = new System.Windows.Forms.Button();
+            this.select_9_button = new System.Windows.Forms.Button();
+            this.score_10_groupBox = new System.Windows.Forms.GroupBox();
+            this.score_10_tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.unselected_10_listBox = new System.Windows.Forms.ListBox();
+            this.selected_10_listBox = new System.Windows.Forms.ListBox();
+            this.unselected_10_filter_textBox = new System.Windows.Forms.TextBox();
+            this.selected_10_filter_textBox = new System.Windows.Forms.TextBox();
+            this.score_10_panel = new System.Windows.Forms.Panel();
+            this.unselect_all_10_button = new System.Windows.Forms.Button();
+            this.unselect_10_button = new System.Windows.Forms.Button();
+            this.select_all_10_button = new System.Windows.Forms.Button();
+            this.select_10_button = new System.Windows.Forms.Button();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.score_config_main_panel.SuspendLayout();
-            this.groupBox5.SuspendLayout();
-            this.tableLayoutPanel5.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.groupBox4.SuspendLayout();
-            this.tableLayoutPanel4.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.tableLayoutPanel3.SuspendLayout();
-            this.panel3.SuspendLayout();
+            this.score_6_groupBox.SuspendLayout();
+            this.score_6_tableLayoutPanel.SuspendLayout();
+            this.score_6_panel.SuspendLayout();
+            this.score_5_groupBox.SuspendLayout();
+            this.score_5_tableLayoutPanel.SuspendLayout();
+            this.score_5_panel.SuspendLayout();
+            this.score_4_groupBox.SuspendLayout();
+            this.score_4_tableLayoutPanel.SuspendLayout();
+            this.score_4_panel.SuspendLayout();
             this.score_3_groupBox.SuspendLayout();
             this.score_3_tableLayoutPanel.SuspendLayout();
             this.score_3_panel.SuspendLayout();
             this.score_2_groupBox.SuspendLayout();
             this.score_2_tableLayoutPanel.SuspendLayout();
             this.score_2_panel.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.tableLayoutPanel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.budget_groupBox.SuspendLayout();
             this.score_1_groupBox.SuspendLayout();
             this.score_1_tableLayoutPanel.SuspendLayout();
             this.score_1_panel.SuspendLayout();
+            this.score_7_groupBox.SuspendLayout();
+            this.score_7_tableLayoutPanel.SuspendLayout();
+            this.score_7_panel.SuspendLayout();
+            this.score_8_groupBox.SuspendLayout();
+            this.score_8_tableLayoutPanel.SuspendLayout();
+            this.score_8_panel.SuspendLayout();
+            this.score_9_groupBox.SuspendLayout();
+            this.score_9_tableLayoutPanel.SuspendLayout();
+            this.score_9_panel.SuspendLayout();
+            this.score_10_groupBox.SuspendLayout();
+            this.score_10_tableLayoutPanel.SuspendLayout();
+            this.score_10_panel.SuspendLayout();
             this.SuspendLayout();
             // 
             // create_search_config_file_button
@@ -201,12 +245,15 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.score_config_main_panel.AutoScroll = true;
-            this.score_config_main_panel.Controls.Add(this.groupBox5);
-            this.score_config_main_panel.Controls.Add(this.groupBox4);
-            this.score_config_main_panel.Controls.Add(this.groupBox3);
+            this.score_config_main_panel.Controls.Add(this.score_10_groupBox);
+            this.score_config_main_panel.Controls.Add(this.score_9_groupBox);
+            this.score_config_main_panel.Controls.Add(this.score_8_groupBox);
+            this.score_config_main_panel.Controls.Add(this.score_7_groupBox);
+            this.score_config_main_panel.Controls.Add(this.score_6_groupBox);
+            this.score_config_main_panel.Controls.Add(this.score_5_groupBox);
+            this.score_config_main_panel.Controls.Add(this.score_4_groupBox);
             this.score_config_main_panel.Controls.Add(this.score_3_groupBox);
             this.score_config_main_panel.Controls.Add(this.score_2_groupBox);
-            this.score_config_main_panel.Controls.Add(this.groupBox1);
             this.score_config_main_panel.Controls.Add(this.budget_groupBox);
             this.score_config_main_panel.Controls.Add(this.score_1_groupBox);
             this.score_config_main_panel.Location = new System.Drawing.Point(1, 1);
@@ -214,428 +261,461 @@
             this.score_config_main_panel.Size = new System.Drawing.Size(833, 330);
             this.score_config_main_panel.TabIndex = 16;
             // 
-            // groupBox5
+            // score_6_groupBox
             // 
-            this.groupBox5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.score_6_groupBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox5.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBox5.Controls.Add(this.tableLayoutPanel5);
-            this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox5.Location = new System.Drawing.Point(4, 1021);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(810, 185);
-            this.groupBox5.TabIndex = 13;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "6";
+            this.score_6_groupBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.score_6_groupBox.Controls.Add(this.score_6_tableLayoutPanel);
+            this.score_6_groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.score_6_groupBox.Location = new System.Drawing.Point(4, 1021);
+            this.score_6_groupBox.Name = "score_6_groupBox";
+            this.score_6_groupBox.Size = new System.Drawing.Size(808, 185);
+            this.score_6_groupBox.TabIndex = 13;
+            this.score_6_groupBox.TabStop = false;
+            this.score_6_groupBox.Text = "6";
+            this.score_6_groupBox.Enter += new System.EventHandler(this.score_6_groupBox_Enter);
             // 
-            // tableLayoutPanel5
+            // score_6_tableLayoutPanel
             // 
-            this.tableLayoutPanel5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.score_6_tableLayoutPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel5.ColumnCount = 3;
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel5.Controls.Add(this.listBox9, 0, 1);
-            this.tableLayoutPanel5.Controls.Add(this.listBox10, 2, 1);
-            this.tableLayoutPanel5.Controls.Add(this.textBox9, 0, 0);
-            this.tableLayoutPanel5.Controls.Add(this.textBox10, 2, 0);
-            this.tableLayoutPanel5.Controls.Add(this.panel5, 1, 1);
-            this.tableLayoutPanel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(0, 25);
-            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
-            this.tableLayoutPanel5.RowCount = 2;
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(804, 160);
-            this.tableLayoutPanel5.TabIndex = 0;
+            this.score_6_tableLayoutPanel.ColumnCount = 3;
+            this.score_6_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.score_6_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.score_6_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.score_6_tableLayoutPanel.Controls.Add(this.unselected_6_listBox, 0, 1);
+            this.score_6_tableLayoutPanel.Controls.Add(this.selected_6_listBox, 2, 1);
+            this.score_6_tableLayoutPanel.Controls.Add(this.unselected_6_filter_textBox, 0, 0);
+            this.score_6_tableLayoutPanel.Controls.Add(this.selected_6_filter_textBox, 2, 0);
+            this.score_6_tableLayoutPanel.Controls.Add(this.score_6_panel, 1, 1);
+            this.score_6_tableLayoutPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.score_6_tableLayoutPanel.Location = new System.Drawing.Point(0, 25);
+            this.score_6_tableLayoutPanel.Name = "score_6_tableLayoutPanel";
+            this.score_6_tableLayoutPanel.RowCount = 2;
+            this.score_6_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.score_6_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.score_6_tableLayoutPanel.Size = new System.Drawing.Size(802, 160);
+            this.score_6_tableLayoutPanel.TabIndex = 0;
             // 
-            // listBox9
+            // unselected_6_listBox
             // 
-            this.listBox9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.unselected_6_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBox9.FormattingEnabled = true;
-            this.listBox9.Location = new System.Drawing.Point(3, 28);
-            this.listBox9.Name = "listBox9";
-            this.listBox9.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.listBox9.Size = new System.Drawing.Size(376, 121);
-            this.listBox9.Sorted = true;
-            this.listBox9.TabIndex = 0;
+            this.unselected_6_listBox.FormattingEnabled = true;
+            this.unselected_6_listBox.Location = new System.Drawing.Point(3, 28);
+            this.unselected_6_listBox.Name = "unselected_6_listBox";
+            this.unselected_6_listBox.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
+            this.unselected_6_listBox.Size = new System.Drawing.Size(375, 121);
+            this.unselected_6_listBox.Sorted = true;
+            this.unselected_6_listBox.TabIndex = 0;
+            this.unselected_6_listBox.SelectedIndexChanged += new System.EventHandler(this.unselected_6_listBox_SelectedIndexChanged);
+            this.unselected_6_listBox.DoubleClick += new System.EventHandler(this.unselected_6_listBox_DoubleClick);
             // 
-            // listBox10
+            // selected_6_listBox
             // 
-            this.listBox10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.selected_6_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBox10.FormattingEnabled = true;
-            this.listBox10.Location = new System.Drawing.Point(425, 28);
-            this.listBox10.Name = "listBox10";
-            this.listBox10.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.listBox10.Size = new System.Drawing.Size(376, 121);
-            this.listBox10.Sorted = true;
-            this.listBox10.TabIndex = 1;
+            this.selected_6_listBox.FormattingEnabled = true;
+            this.selected_6_listBox.Location = new System.Drawing.Point(424, 28);
+            this.selected_6_listBox.Name = "selected_6_listBox";
+            this.selected_6_listBox.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
+            this.selected_6_listBox.Size = new System.Drawing.Size(375, 121);
+            this.selected_6_listBox.Sorted = true;
+            this.selected_6_listBox.TabIndex = 1;
+            this.selected_6_listBox.SelectedIndexChanged += new System.EventHandler(this.selected_6_listBox_SelectedIndexChanged);
+            this.selected_6_listBox.DoubleClick += new System.EventHandler(this.selected_6_listBox_DoubleClick);
             // 
-            // textBox9
+            // unselected_6_filter_textBox
             // 
-            this.textBox9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.unselected_6_filter_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox9.Location = new System.Drawing.Point(3, 3);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(376, 20);
-            this.textBox9.TabIndex = 2;
+            this.unselected_6_filter_textBox.Location = new System.Drawing.Point(3, 3);
+            this.unselected_6_filter_textBox.Name = "unselected_6_filter_textBox";
+            this.unselected_6_filter_textBox.Size = new System.Drawing.Size(375, 20);
+            this.unselected_6_filter_textBox.TabIndex = 2;
+            this.unselected_6_filter_textBox.TextChanged += new System.EventHandler(this.unselected_6_filter_textBox_TextChanged);
             // 
-            // textBox10
+            // selected_6_filter_textBox
             // 
-            this.textBox10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.selected_6_filter_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox10.Location = new System.Drawing.Point(425, 3);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(376, 20);
-            this.textBox10.TabIndex = 3;
+            this.selected_6_filter_textBox.Location = new System.Drawing.Point(424, 3);
+            this.selected_6_filter_textBox.Name = "selected_6_filter_textBox";
+            this.selected_6_filter_textBox.Size = new System.Drawing.Size(375, 20);
+            this.selected_6_filter_textBox.TabIndex = 3;
+            this.selected_6_filter_textBox.TextChanged += new System.EventHandler(this.selected_6_filter_textBox_TextChanged);
             // 
-            // panel5
+            // score_6_panel
             // 
-            this.panel5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.score_6_panel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel5.Controls.Add(this.button17);
-            this.panel5.Controls.Add(this.button18);
-            this.panel5.Controls.Add(this.button19);
-            this.panel5.Controls.Add(this.button20);
-            this.panel5.Location = new System.Drawing.Point(385, 28);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(34, 129);
-            this.panel5.TabIndex = 4;
+            this.score_6_panel.Controls.Add(this.unselect_all_6_button);
+            this.score_6_panel.Controls.Add(this.unselect_6_button);
+            this.score_6_panel.Controls.Add(this.select_all_6_button);
+            this.score_6_panel.Controls.Add(this.select_6_button);
+            this.score_6_panel.Location = new System.Drawing.Point(384, 28);
+            this.score_6_panel.Name = "score_6_panel";
+            this.score_6_panel.Size = new System.Drawing.Size(34, 129);
+            this.score_6_panel.TabIndex = 4;
             // 
-            // button17
+            // unselect_all_6_button
             // 
-            this.button17.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.unselect_all_6_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button17.Location = new System.Drawing.Point(0, 98);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(34, 23);
-            this.button17.TabIndex = 3;
-            this.button17.Text = "<<";
-            this.button17.UseVisualStyleBackColor = true;
+            this.unselect_all_6_button.Location = new System.Drawing.Point(0, 98);
+            this.unselect_all_6_button.Name = "unselect_all_6_button";
+            this.unselect_all_6_button.Size = new System.Drawing.Size(34, 23);
+            this.unselect_all_6_button.TabIndex = 3;
+            this.unselect_all_6_button.Text = "<<";
+            this.unselect_all_6_button.UseVisualStyleBackColor = true;
+            this.unselect_all_6_button.Click += new System.EventHandler(this.unselect_all_6_button_Click);
             // 
-            // button18
+            // unselect_6_button
             // 
-            this.button18.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.unselect_6_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button18.Location = new System.Drawing.Point(0, 69);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(34, 23);
-            this.button18.TabIndex = 2;
-            this.button18.Text = "<";
-            this.button18.UseVisualStyleBackColor = true;
+            this.unselect_6_button.Location = new System.Drawing.Point(0, 69);
+            this.unselect_6_button.Name = "unselect_6_button";
+            this.unselect_6_button.Size = new System.Drawing.Size(34, 23);
+            this.unselect_6_button.TabIndex = 2;
+            this.unselect_6_button.Text = "<";
+            this.unselect_6_button.UseVisualStyleBackColor = true;
+            this.unselect_6_button.Click += new System.EventHandler(this.unselect_6_button_Click);
             // 
-            // button19
+            // select_all_6_button
             // 
-            this.button19.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.select_all_6_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button19.Location = new System.Drawing.Point(0, 29);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(34, 23);
-            this.button19.TabIndex = 1;
-            this.button19.Text = ">>";
-            this.button19.UseVisualStyleBackColor = true;
+            this.select_all_6_button.Location = new System.Drawing.Point(0, 29);
+            this.select_all_6_button.Name = "select_all_6_button";
+            this.select_all_6_button.Size = new System.Drawing.Size(34, 23);
+            this.select_all_6_button.TabIndex = 1;
+            this.select_all_6_button.Text = ">>";
+            this.select_all_6_button.UseVisualStyleBackColor = true;
+            this.select_all_6_button.Click += new System.EventHandler(this.select_all_6_button_Click);
             // 
-            // button20
+            // select_6_button
             // 
-            this.button20.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.select_6_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button20.Location = new System.Drawing.Point(0, 0);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(34, 23);
-            this.button20.TabIndex = 0;
-            this.button20.Text = ">";
-            this.button20.UseVisualStyleBackColor = true;
+            this.select_6_button.Location = new System.Drawing.Point(0, 0);
+            this.select_6_button.Name = "select_6_button";
+            this.select_6_button.Size = new System.Drawing.Size(34, 23);
+            this.select_6_button.TabIndex = 0;
+            this.select_6_button.Text = ">";
+            this.select_6_button.UseVisualStyleBackColor = true;
+            this.select_6_button.Click += new System.EventHandler(this.select_6_button_Click);
             // 
-            // groupBox4
+            // score_5_groupBox
             // 
-            this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.score_5_groupBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox4.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBox4.Controls.Add(this.tableLayoutPanel4);
-            this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox4.Location = new System.Drawing.Point(4, 830);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(810, 185);
-            this.groupBox4.TabIndex = 12;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "5";
+            this.score_5_groupBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.score_5_groupBox.Controls.Add(this.score_5_tableLayoutPanel);
+            this.score_5_groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.score_5_groupBox.Location = new System.Drawing.Point(4, 830);
+            this.score_5_groupBox.Name = "score_5_groupBox";
+            this.score_5_groupBox.Size = new System.Drawing.Size(808, 185);
+            this.score_5_groupBox.TabIndex = 12;
+            this.score_5_groupBox.TabStop = false;
+            this.score_5_groupBox.Text = "5";
+            this.score_5_groupBox.Enter += new System.EventHandler(this.score_5_groupBox_Enter);
             // 
-            // tableLayoutPanel4
+            // score_5_tableLayoutPanel
             // 
-            this.tableLayoutPanel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.score_5_tableLayoutPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel4.ColumnCount = 3;
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.Controls.Add(this.listBox7, 0, 1);
-            this.tableLayoutPanel4.Controls.Add(this.listBox8, 2, 1);
-            this.tableLayoutPanel4.Controls.Add(this.textBox7, 0, 0);
-            this.tableLayoutPanel4.Controls.Add(this.textBox8, 2, 0);
-            this.tableLayoutPanel4.Controls.Add(this.panel4, 1, 1);
-            this.tableLayoutPanel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(0, 25);
-            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
-            this.tableLayoutPanel4.RowCount = 2;
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(804, 160);
-            this.tableLayoutPanel4.TabIndex = 0;
+            this.score_5_tableLayoutPanel.ColumnCount = 3;
+            this.score_5_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.score_5_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.score_5_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.score_5_tableLayoutPanel.Controls.Add(this.unselected_5_listBox, 0, 1);
+            this.score_5_tableLayoutPanel.Controls.Add(this.selected_5_listBox, 2, 1);
+            this.score_5_tableLayoutPanel.Controls.Add(this.unselected_5_filter_textBox, 0, 0);
+            this.score_5_tableLayoutPanel.Controls.Add(this.selected_5_filter_textBox, 2, 0);
+            this.score_5_tableLayoutPanel.Controls.Add(this.score_5_panel, 1, 1);
+            this.score_5_tableLayoutPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.score_5_tableLayoutPanel.Location = new System.Drawing.Point(0, 25);
+            this.score_5_tableLayoutPanel.Name = "score_5_tableLayoutPanel";
+            this.score_5_tableLayoutPanel.RowCount = 2;
+            this.score_5_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.score_5_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.score_5_tableLayoutPanel.Size = new System.Drawing.Size(802, 160);
+            this.score_5_tableLayoutPanel.TabIndex = 0;
             // 
-            // listBox7
+            // unselected_5_listBox
             // 
-            this.listBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.unselected_5_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBox7.FormattingEnabled = true;
-            this.listBox7.Location = new System.Drawing.Point(3, 28);
-            this.listBox7.Name = "listBox7";
-            this.listBox7.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.listBox7.Size = new System.Drawing.Size(376, 121);
-            this.listBox7.Sorted = true;
-            this.listBox7.TabIndex = 0;
+            this.unselected_5_listBox.FormattingEnabled = true;
+            this.unselected_5_listBox.Location = new System.Drawing.Point(3, 28);
+            this.unselected_5_listBox.Name = "unselected_5_listBox";
+            this.unselected_5_listBox.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
+            this.unselected_5_listBox.Size = new System.Drawing.Size(375, 121);
+            this.unselected_5_listBox.Sorted = true;
+            this.unselected_5_listBox.TabIndex = 0;
+            this.unselected_5_listBox.SelectedIndexChanged += new System.EventHandler(this.unselected_5_listBox_SelectedIndexChanged);
+            this.unselected_5_listBox.DoubleClick += new System.EventHandler(this.unselected_5_listBox_DoubleClick);
             // 
-            // listBox8
+            // selected_5_listBox
             // 
-            this.listBox8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.selected_5_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBox8.FormattingEnabled = true;
-            this.listBox8.Location = new System.Drawing.Point(425, 28);
-            this.listBox8.Name = "listBox8";
-            this.listBox8.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.listBox8.Size = new System.Drawing.Size(376, 121);
-            this.listBox8.Sorted = true;
-            this.listBox8.TabIndex = 1;
+            this.selected_5_listBox.FormattingEnabled = true;
+            this.selected_5_listBox.Location = new System.Drawing.Point(424, 28);
+            this.selected_5_listBox.Name = "selected_5_listBox";
+            this.selected_5_listBox.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
+            this.selected_5_listBox.Size = new System.Drawing.Size(375, 121);
+            this.selected_5_listBox.Sorted = true;
+            this.selected_5_listBox.TabIndex = 1;
+            this.selected_5_listBox.SelectedIndexChanged += new System.EventHandler(this.selected_5_listBox_SelectedIndexChanged);
+            this.selected_5_listBox.DoubleClick += new System.EventHandler(this.selected_5_listBox_DoubleClick);
             // 
-            // textBox7
+            // unselected_5_filter_textBox
             // 
-            this.textBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.unselected_5_filter_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox7.Location = new System.Drawing.Point(3, 3);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(376, 20);
-            this.textBox7.TabIndex = 2;
+            this.unselected_5_filter_textBox.Location = new System.Drawing.Point(3, 3);
+            this.unselected_5_filter_textBox.Name = "unselected_5_filter_textBox";
+            this.unselected_5_filter_textBox.Size = new System.Drawing.Size(375, 20);
+            this.unselected_5_filter_textBox.TabIndex = 2;
+            this.unselected_5_filter_textBox.TextChanged += new System.EventHandler(this.unselected_5_filter_textBox_TextChanged);
             // 
-            // textBox8
+            // selected_5_filter_textBox
             // 
-            this.textBox8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.selected_5_filter_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox8.Location = new System.Drawing.Point(425, 3);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(376, 20);
-            this.textBox8.TabIndex = 3;
+            this.selected_5_filter_textBox.Location = new System.Drawing.Point(424, 3);
+            this.selected_5_filter_textBox.Name = "selected_5_filter_textBox";
+            this.selected_5_filter_textBox.Size = new System.Drawing.Size(375, 20);
+            this.selected_5_filter_textBox.TabIndex = 3;
+            this.selected_5_filter_textBox.TextChanged += new System.EventHandler(this.selected_5_filter_textBox_TextChanged);
             // 
-            // panel4
+            // score_5_panel
             // 
-            this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.score_5_panel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel4.Controls.Add(this.button13);
-            this.panel4.Controls.Add(this.button14);
-            this.panel4.Controls.Add(this.button15);
-            this.panel4.Controls.Add(this.button16);
-            this.panel4.Location = new System.Drawing.Point(385, 28);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(34, 129);
-            this.panel4.TabIndex = 4;
+            this.score_5_panel.Controls.Add(this.unselect_all_5_button);
+            this.score_5_panel.Controls.Add(this.unselect_5_button);
+            this.score_5_panel.Controls.Add(this.select_all_5_button);
+            this.score_5_panel.Controls.Add(this.select_5_button);
+            this.score_5_panel.Location = new System.Drawing.Point(384, 28);
+            this.score_5_panel.Name = "score_5_panel";
+            this.score_5_panel.Size = new System.Drawing.Size(34, 129);
+            this.score_5_panel.TabIndex = 4;
             // 
-            // button13
+            // unselect_all_5_button
             // 
-            this.button13.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.unselect_all_5_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button13.Location = new System.Drawing.Point(0, 98);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(34, 23);
-            this.button13.TabIndex = 3;
-            this.button13.Text = "<<";
-            this.button13.UseVisualStyleBackColor = true;
+            this.unselect_all_5_button.Location = new System.Drawing.Point(0, 98);
+            this.unselect_all_5_button.Name = "unselect_all_5_button";
+            this.unselect_all_5_button.Size = new System.Drawing.Size(34, 23);
+            this.unselect_all_5_button.TabIndex = 3;
+            this.unselect_all_5_button.Text = "<<";
+            this.unselect_all_5_button.UseVisualStyleBackColor = true;
+            this.unselect_all_5_button.Click += new System.EventHandler(this.unselect_all_5_button_Click);
             // 
-            // button14
+            // unselect_5_button
             // 
-            this.button14.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.unselect_5_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button14.Location = new System.Drawing.Point(0, 69);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(34, 23);
-            this.button14.TabIndex = 2;
-            this.button14.Text = "<";
-            this.button14.UseVisualStyleBackColor = true;
+            this.unselect_5_button.Location = new System.Drawing.Point(0, 69);
+            this.unselect_5_button.Name = "unselect_5_button";
+            this.unselect_5_button.Size = new System.Drawing.Size(34, 23);
+            this.unselect_5_button.TabIndex = 2;
+            this.unselect_5_button.Text = "<";
+            this.unselect_5_button.UseVisualStyleBackColor = true;
+            this.unselect_5_button.Click += new System.EventHandler(this.unselect_5_button_Click);
             // 
-            // button15
+            // select_all_5_button
             // 
-            this.button15.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.select_all_5_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button15.Location = new System.Drawing.Point(0, 29);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(34, 23);
-            this.button15.TabIndex = 1;
-            this.button15.Text = ">>";
-            this.button15.UseVisualStyleBackColor = true;
+            this.select_all_5_button.Location = new System.Drawing.Point(0, 29);
+            this.select_all_5_button.Name = "select_all_5_button";
+            this.select_all_5_button.Size = new System.Drawing.Size(34, 23);
+            this.select_all_5_button.TabIndex = 1;
+            this.select_all_5_button.Text = ">>";
+            this.select_all_5_button.UseVisualStyleBackColor = true;
+            this.select_all_5_button.Click += new System.EventHandler(this.select_all_5_button_Click);
             // 
-            // button16
+            // select_5_button
             // 
-            this.button16.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.select_5_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button16.Location = new System.Drawing.Point(0, 0);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(34, 23);
-            this.button16.TabIndex = 0;
-            this.button16.Text = ">";
-            this.button16.UseVisualStyleBackColor = true;
+            this.select_5_button.Location = new System.Drawing.Point(0, 0);
+            this.select_5_button.Name = "select_5_button";
+            this.select_5_button.Size = new System.Drawing.Size(34, 23);
+            this.select_5_button.TabIndex = 0;
+            this.select_5_button.Text = ">";
+            this.select_5_button.UseVisualStyleBackColor = true;
+            this.select_5_button.Click += new System.EventHandler(this.select_5_button_Click);
             // 
-            // groupBox3
+            // score_4_groupBox
             // 
-            this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.score_4_groupBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox3.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBox3.Controls.Add(this.tableLayoutPanel3);
-            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox3.Location = new System.Drawing.Point(4, 639);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(810, 185);
-            this.groupBox3.TabIndex = 11;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "4";
+            this.score_4_groupBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.score_4_groupBox.Controls.Add(this.score_4_tableLayoutPanel);
+            this.score_4_groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.score_4_groupBox.Location = new System.Drawing.Point(3, 639);
+            this.score_4_groupBox.Name = "score_4_groupBox";
+            this.score_4_groupBox.Size = new System.Drawing.Size(808, 185);
+            this.score_4_groupBox.TabIndex = 11;
+            this.score_4_groupBox.TabStop = false;
+            this.score_4_groupBox.Text = "4";
+            this.score_4_groupBox.Enter += new System.EventHandler(this.score_4_groupBox_Enter);
             // 
-            // tableLayoutPanel3
+            // score_4_tableLayoutPanel
             // 
-            this.tableLayoutPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.score_4_tableLayoutPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel3.ColumnCount = 3;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Controls.Add(this.listBox5, 0, 1);
-            this.tableLayoutPanel3.Controls.Add(this.listBox6, 2, 1);
-            this.tableLayoutPanel3.Controls.Add(this.textBox5, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.textBox6, 2, 0);
-            this.tableLayoutPanel3.Controls.Add(this.panel3, 1, 1);
-            this.tableLayoutPanel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(0, 25);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 2;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(804, 160);
-            this.tableLayoutPanel3.TabIndex = 0;
+            this.score_4_tableLayoutPanel.ColumnCount = 3;
+            this.score_4_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.score_4_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.score_4_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.score_4_tableLayoutPanel.Controls.Add(this.unselected_4_listBox, 0, 1);
+            this.score_4_tableLayoutPanel.Controls.Add(this.selected_4_listBox, 2, 1);
+            this.score_4_tableLayoutPanel.Controls.Add(this.unselected_4_filter_textBox, 0, 0);
+            this.score_4_tableLayoutPanel.Controls.Add(this.selected_4_filter_textBox, 2, 0);
+            this.score_4_tableLayoutPanel.Controls.Add(this.score_4_panel, 1, 1);
+            this.score_4_tableLayoutPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.score_4_tableLayoutPanel.Location = new System.Drawing.Point(0, 25);
+            this.score_4_tableLayoutPanel.Name = "score_4_tableLayoutPanel";
+            this.score_4_tableLayoutPanel.RowCount = 2;
+            this.score_4_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.score_4_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.score_4_tableLayoutPanel.Size = new System.Drawing.Size(802, 160);
+            this.score_4_tableLayoutPanel.TabIndex = 0;
             // 
-            // listBox5
+            // unselected_4_listBox
             // 
-            this.listBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.unselected_4_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBox5.FormattingEnabled = true;
-            this.listBox5.Location = new System.Drawing.Point(3, 28);
-            this.listBox5.Name = "listBox5";
-            this.listBox5.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.listBox5.Size = new System.Drawing.Size(376, 121);
-            this.listBox5.Sorted = true;
-            this.listBox5.TabIndex = 0;
+            this.unselected_4_listBox.FormattingEnabled = true;
+            this.unselected_4_listBox.Location = new System.Drawing.Point(3, 28);
+            this.unselected_4_listBox.Name = "unselected_4_listBox";
+            this.unselected_4_listBox.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
+            this.unselected_4_listBox.Size = new System.Drawing.Size(375, 121);
+            this.unselected_4_listBox.Sorted = true;
+            this.unselected_4_listBox.TabIndex = 0;
+            this.unselected_4_listBox.SelectedIndexChanged += new System.EventHandler(this.unselected_4_listBox_SelectedIndexChanged);
+            this.unselected_4_listBox.DoubleClick += new System.EventHandler(this.unselected_4_listBox_DoubleClick);
             // 
-            // listBox6
+            // selected_4_listBox
             // 
-            this.listBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.selected_4_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBox6.FormattingEnabled = true;
-            this.listBox6.Location = new System.Drawing.Point(425, 28);
-            this.listBox6.Name = "listBox6";
-            this.listBox6.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.listBox6.Size = new System.Drawing.Size(376, 121);
-            this.listBox6.Sorted = true;
-            this.listBox6.TabIndex = 1;
+            this.selected_4_listBox.FormattingEnabled = true;
+            this.selected_4_listBox.Location = new System.Drawing.Point(424, 28);
+            this.selected_4_listBox.Name = "selected_4_listBox";
+            this.selected_4_listBox.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
+            this.selected_4_listBox.Size = new System.Drawing.Size(375, 121);
+            this.selected_4_listBox.Sorted = true;
+            this.selected_4_listBox.TabIndex = 1;
+            this.selected_4_listBox.SelectedIndexChanged += new System.EventHandler(this.selected_4_listBox_SelectedIndexChanged);
+            this.selected_4_listBox.DoubleClick += new System.EventHandler(this.selected_4_listBox_DoubleClick);
             // 
-            // textBox5
+            // unselected_4_filter_textBox
             // 
-            this.textBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.unselected_4_filter_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox5.Location = new System.Drawing.Point(3, 3);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(376, 20);
-            this.textBox5.TabIndex = 2;
+            this.unselected_4_filter_textBox.Location = new System.Drawing.Point(3, 3);
+            this.unselected_4_filter_textBox.Name = "unselected_4_filter_textBox";
+            this.unselected_4_filter_textBox.Size = new System.Drawing.Size(375, 20);
+            this.unselected_4_filter_textBox.TabIndex = 2;
+            this.unselected_4_filter_textBox.TextChanged += new System.EventHandler(this.unselected_4_filter_textBox_TextChanged);
             // 
-            // textBox6
+            // selected_4_filter_textBox
             // 
-            this.textBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.selected_4_filter_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox6.Location = new System.Drawing.Point(425, 3);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(376, 20);
-            this.textBox6.TabIndex = 3;
+            this.selected_4_filter_textBox.Location = new System.Drawing.Point(424, 3);
+            this.selected_4_filter_textBox.Name = "selected_4_filter_textBox";
+            this.selected_4_filter_textBox.Size = new System.Drawing.Size(375, 20);
+            this.selected_4_filter_textBox.TabIndex = 3;
+            this.selected_4_filter_textBox.TextChanged += new System.EventHandler(this.selected_4_filter_textBox_TextChanged);
             // 
-            // panel3
+            // score_4_panel
             // 
-            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.score_4_panel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel3.Controls.Add(this.button9);
-            this.panel3.Controls.Add(this.button10);
-            this.panel3.Controls.Add(this.button11);
-            this.panel3.Controls.Add(this.button12);
-            this.panel3.Location = new System.Drawing.Point(385, 28);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(34, 129);
-            this.panel3.TabIndex = 4;
+            this.score_4_panel.Controls.Add(this.unselect_all_4_button);
+            this.score_4_panel.Controls.Add(this.unselect_4_button);
+            this.score_4_panel.Controls.Add(this.select_all_4_button);
+            this.score_4_panel.Controls.Add(this.select_4_button);
+            this.score_4_panel.Location = new System.Drawing.Point(384, 28);
+            this.score_4_panel.Name = "score_4_panel";
+            this.score_4_panel.Size = new System.Drawing.Size(34, 129);
+            this.score_4_panel.TabIndex = 4;
             // 
-            // button9
+            // unselect_all_4_button
             // 
-            this.button9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.unselect_all_4_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button9.Location = new System.Drawing.Point(0, 98);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(34, 23);
-            this.button9.TabIndex = 3;
-            this.button9.Text = "<<";
-            this.button9.UseVisualStyleBackColor = true;
+            this.unselect_all_4_button.Location = new System.Drawing.Point(0, 98);
+            this.unselect_all_4_button.Name = "unselect_all_4_button";
+            this.unselect_all_4_button.Size = new System.Drawing.Size(34, 23);
+            this.unselect_all_4_button.TabIndex = 3;
+            this.unselect_all_4_button.Text = "<<";
+            this.unselect_all_4_button.UseVisualStyleBackColor = true;
+            this.unselect_all_4_button.Click += new System.EventHandler(this.unselect_all_4_button_Click);
             // 
-            // button10
+            // unselect_4_button
             // 
-            this.button10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.unselect_4_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button10.Location = new System.Drawing.Point(0, 69);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(34, 23);
-            this.button10.TabIndex = 2;
-            this.button10.Text = "<";
-            this.button10.UseVisualStyleBackColor = true;
+            this.unselect_4_button.Location = new System.Drawing.Point(0, 69);
+            this.unselect_4_button.Name = "unselect_4_button";
+            this.unselect_4_button.Size = new System.Drawing.Size(34, 23);
+            this.unselect_4_button.TabIndex = 2;
+            this.unselect_4_button.Text = "<";
+            this.unselect_4_button.UseVisualStyleBackColor = true;
+            this.unselect_4_button.Click += new System.EventHandler(this.unselect_4_button_Click);
             // 
-            // button11
+            // select_all_4_button
             // 
-            this.button11.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.select_all_4_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button11.Location = new System.Drawing.Point(0, 29);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(34, 23);
-            this.button11.TabIndex = 1;
-            this.button11.Text = ">>";
-            this.button11.UseVisualStyleBackColor = true;
+            this.select_all_4_button.Location = new System.Drawing.Point(0, 29);
+            this.select_all_4_button.Name = "select_all_4_button";
+            this.select_all_4_button.Size = new System.Drawing.Size(34, 23);
+            this.select_all_4_button.TabIndex = 1;
+            this.select_all_4_button.Text = ">>";
+            this.select_all_4_button.UseVisualStyleBackColor = true;
+            this.select_all_4_button.Click += new System.EventHandler(this.select_all_4_button_Click);
             // 
-            // button12
+            // select_4_button
             // 
-            this.button12.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.select_4_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button12.Location = new System.Drawing.Point(0, 0);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(34, 23);
-            this.button12.TabIndex = 0;
-            this.button12.Text = ">";
-            this.button12.UseVisualStyleBackColor = true;
+            this.select_4_button.Location = new System.Drawing.Point(0, 0);
+            this.select_4_button.Name = "select_4_button";
+            this.select_4_button.Size = new System.Drawing.Size(34, 23);
+            this.select_4_button.TabIndex = 0;
+            this.select_4_button.Text = ">";
+            this.select_4_button.UseVisualStyleBackColor = true;
+            this.select_4_button.Click += new System.EventHandler(this.select_4_button_Click);
             // 
             // score_3_groupBox
             // 
@@ -646,7 +726,7 @@
             this.score_3_groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.score_3_groupBox.Location = new System.Drawing.Point(4, 448);
             this.score_3_groupBox.Name = "score_3_groupBox";
-            this.score_3_groupBox.Size = new System.Drawing.Size(810, 185);
+            this.score_3_groupBox.Size = new System.Drawing.Size(808, 185);
             this.score_3_groupBox.TabIndex = 10;
             this.score_3_groupBox.TabStop = false;
             this.score_3_groupBox.Text = "3";
@@ -672,7 +752,7 @@
             this.score_3_tableLayoutPanel.RowCount = 2;
             this.score_3_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
             this.score_3_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.score_3_tableLayoutPanel.Size = new System.Drawing.Size(804, 160);
+            this.score_3_tableLayoutPanel.Size = new System.Drawing.Size(802, 160);
             this.score_3_tableLayoutPanel.TabIndex = 0;
             // 
             // unselected_3_listBox
@@ -684,7 +764,7 @@
             this.unselected_3_listBox.Location = new System.Drawing.Point(3, 28);
             this.unselected_3_listBox.Name = "unselected_3_listBox";
             this.unselected_3_listBox.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.unselected_3_listBox.Size = new System.Drawing.Size(376, 121);
+            this.unselected_3_listBox.Size = new System.Drawing.Size(375, 121);
             this.unselected_3_listBox.Sorted = true;
             this.unselected_3_listBox.TabIndex = 0;
             this.unselected_3_listBox.SelectedIndexChanged += new System.EventHandler(this.unselected_3_listBox_SelectedIndexChanged);
@@ -696,10 +776,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.selected_3_listBox.FormattingEnabled = true;
-            this.selected_3_listBox.Location = new System.Drawing.Point(425, 28);
+            this.selected_3_listBox.Location = new System.Drawing.Point(424, 28);
             this.selected_3_listBox.Name = "selected_3_listBox";
             this.selected_3_listBox.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.selected_3_listBox.Size = new System.Drawing.Size(376, 121);
+            this.selected_3_listBox.Size = new System.Drawing.Size(375, 121);
             this.selected_3_listBox.Sorted = true;
             this.selected_3_listBox.TabIndex = 1;
             this.selected_3_listBox.SelectedIndexChanged += new System.EventHandler(this.selected_3_listBox_SelectedIndexChanged);
@@ -712,7 +792,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.unselected_3_filter_textBox.Location = new System.Drawing.Point(3, 3);
             this.unselected_3_filter_textBox.Name = "unselected_3_filter_textBox";
-            this.unselected_3_filter_textBox.Size = new System.Drawing.Size(376, 20);
+            this.unselected_3_filter_textBox.Size = new System.Drawing.Size(375, 20);
             this.unselected_3_filter_textBox.TabIndex = 2;
             this.unselected_3_filter_textBox.TextChanged += new System.EventHandler(this.unselected_3_filter_textBox_TextChanged);
             // 
@@ -721,9 +801,9 @@
             this.selected_3_filter_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.selected_3_filter_textBox.Location = new System.Drawing.Point(425, 3);
+            this.selected_3_filter_textBox.Location = new System.Drawing.Point(424, 3);
             this.selected_3_filter_textBox.Name = "selected_3_filter_textBox";
-            this.selected_3_filter_textBox.Size = new System.Drawing.Size(376, 20);
+            this.selected_3_filter_textBox.Size = new System.Drawing.Size(375, 20);
             this.selected_3_filter_textBox.TabIndex = 3;
             this.selected_3_filter_textBox.TextChanged += new System.EventHandler(this.selected_3_filter_textBox_TextChanged);
             // 
@@ -736,7 +816,7 @@
             this.score_3_panel.Controls.Add(this.unselect_3_button);
             this.score_3_panel.Controls.Add(this.select_all_3_button);
             this.score_3_panel.Controls.Add(this.select_3_button);
-            this.score_3_panel.Location = new System.Drawing.Point(385, 28);
+            this.score_3_panel.Location = new System.Drawing.Point(384, 28);
             this.score_3_panel.Name = "score_3_panel";
             this.score_3_panel.Size = new System.Drawing.Size(34, 129);
             this.score_3_panel.TabIndex = 4;
@@ -798,7 +878,7 @@
             this.score_2_groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.score_2_groupBox.Location = new System.Drawing.Point(4, 257);
             this.score_2_groupBox.Name = "score_2_groupBox";
-            this.score_2_groupBox.Size = new System.Drawing.Size(810, 185);
+            this.score_2_groupBox.Size = new System.Drawing.Size(808, 185);
             this.score_2_groupBox.TabIndex = 9;
             this.score_2_groupBox.TabStop = false;
             this.score_2_groupBox.Text = "2";
@@ -824,7 +904,7 @@
             this.score_2_tableLayoutPanel.RowCount = 2;
             this.score_2_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
             this.score_2_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.score_2_tableLayoutPanel.Size = new System.Drawing.Size(804, 160);
+            this.score_2_tableLayoutPanel.Size = new System.Drawing.Size(802, 160);
             this.score_2_tableLayoutPanel.TabIndex = 0;
             // 
             // unselected_2_listBox
@@ -836,7 +916,7 @@
             this.unselected_2_listBox.Location = new System.Drawing.Point(3, 28);
             this.unselected_2_listBox.Name = "unselected_2_listBox";
             this.unselected_2_listBox.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.unselected_2_listBox.Size = new System.Drawing.Size(376, 121);
+            this.unselected_2_listBox.Size = new System.Drawing.Size(375, 121);
             this.unselected_2_listBox.Sorted = true;
             this.unselected_2_listBox.TabIndex = 0;
             this.unselected_2_listBox.SelectedIndexChanged += new System.EventHandler(this.unselected_2_listBox_SelectedIndexChanged);
@@ -848,10 +928,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.selected_2_listBox.FormattingEnabled = true;
-            this.selected_2_listBox.Location = new System.Drawing.Point(425, 28);
+            this.selected_2_listBox.Location = new System.Drawing.Point(424, 28);
             this.selected_2_listBox.Name = "selected_2_listBox";
             this.selected_2_listBox.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.selected_2_listBox.Size = new System.Drawing.Size(376, 121);
+            this.selected_2_listBox.Size = new System.Drawing.Size(375, 121);
             this.selected_2_listBox.Sorted = true;
             this.selected_2_listBox.TabIndex = 1;
             this.selected_2_listBox.SelectedIndexChanged += new System.EventHandler(this.selected_2_listBox_SelectedIndexChanged);
@@ -864,7 +944,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.unselected_2_filter_textBox.Location = new System.Drawing.Point(3, 3);
             this.unselected_2_filter_textBox.Name = "unselected_2_filter_textBox";
-            this.unselected_2_filter_textBox.Size = new System.Drawing.Size(376, 20);
+            this.unselected_2_filter_textBox.Size = new System.Drawing.Size(375, 20);
             this.unselected_2_filter_textBox.TabIndex = 2;
             this.unselected_2_filter_textBox.TextChanged += new System.EventHandler(this.unselected_2_filter_textBox_TextChanged);
             // 
@@ -873,9 +953,9 @@
             this.selected_2_filter_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.selected_2_filter_textBox.Location = new System.Drawing.Point(425, 3);
+            this.selected_2_filter_textBox.Location = new System.Drawing.Point(424, 3);
             this.selected_2_filter_textBox.Name = "selected_2_filter_textBox";
-            this.selected_2_filter_textBox.Size = new System.Drawing.Size(376, 20);
+            this.selected_2_filter_textBox.Size = new System.Drawing.Size(375, 20);
             this.selected_2_filter_textBox.TabIndex = 3;
             this.selected_2_filter_textBox.TextChanged += new System.EventHandler(this.selected_2_filter_textBox_TextChanged);
             // 
@@ -888,7 +968,7 @@
             this.score_2_panel.Controls.Add(this.unselect_2_button);
             this.score_2_panel.Controls.Add(this.select_all_2_button);
             this.score_2_panel.Controls.Add(this.select_2_button);
-            this.score_2_panel.Location = new System.Drawing.Point(385, 28);
+            this.score_2_panel.Location = new System.Drawing.Point(384, 28);
             this.score_2_panel.Name = "score_2_panel";
             this.score_2_panel.Size = new System.Drawing.Size(34, 129);
             this.score_2_panel.TabIndex = 4;
@@ -941,147 +1021,6 @@
             this.select_2_button.UseVisualStyleBackColor = true;
             this.select_2_button.Click += new System.EventHandler(this.select_2_button_Click);
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBox1.Controls.Add(this.tableLayoutPanel1);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox1.Location = new System.Drawing.Point(4, 1523);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(810, 185);
-            this.groupBox1.TabIndex = 8;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "2";
-            // 
-            // tableLayoutPanel1
-            // 
-            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel1.ColumnCount = 3;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Controls.Add(this.listBox1, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.listBox2, 2, 1);
-            this.tableLayoutPanel1.Controls.Add(this.textBox1, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.textBox2, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.panel2, 1, 1);
-            this.tableLayoutPanel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 25);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 2;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(804, 160);
-            this.tableLayoutPanel1.TabIndex = 0;
-            // 
-            // listBox1
-            // 
-            this.listBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(3, 28);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.listBox1.Size = new System.Drawing.Size(376, 121);
-            this.listBox1.Sorted = true;
-            this.listBox1.TabIndex = 0;
-            // 
-            // listBox2
-            // 
-            this.listBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.Location = new System.Drawing.Point(425, 28);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.listBox2.Size = new System.Drawing.Size(376, 121);
-            this.listBox2.Sorted = true;
-            this.listBox2.TabIndex = 1;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Location = new System.Drawing.Point(3, 3);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(376, 20);
-            this.textBox1.TabIndex = 2;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox2.Location = new System.Drawing.Point(425, 3);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(376, 20);
-            this.textBox2.TabIndex = 3;
-            // 
-            // panel2
-            // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel2.Controls.Add(this.button1);
-            this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.button3);
-            this.panel2.Controls.Add(this.button4);
-            this.panel2.Location = new System.Drawing.Point(385, 28);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(34, 129);
-            this.panel2.TabIndex = 4;
-            // 
-            // button1
-            // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(0, 98);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(34, 23);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "<<";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.Location = new System.Drawing.Point(0, 69);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(34, 23);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "<";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button3.Location = new System.Drawing.Point(0, 29);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(34, 23);
-            this.button3.TabIndex = 1;
-            this.button3.Text = ">>";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button4.Location = new System.Drawing.Point(0, 0);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(34, 23);
-            this.button4.TabIndex = 0;
-            this.button4.Text = ">";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
             // budget_groupBox
             // 
             this.budget_groupBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -1092,7 +1031,7 @@
             this.budget_groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.budget_groupBox.Location = new System.Drawing.Point(4, 4);
             this.budget_groupBox.Name = "budget_groupBox";
-            this.budget_groupBox.Size = new System.Drawing.Size(811, 56);
+            this.budget_groupBox.Size = new System.Drawing.Size(808, 56);
             this.budget_groupBox.TabIndex = 7;
             this.budget_groupBox.TabStop = false;
             this.budget_groupBox.Text = "Бюджет";
@@ -1105,13 +1044,15 @@
             this.budget_textBox.Name = "budget_textBox";
             this.budget_textBox.Size = new System.Drawing.Size(100, 20);
             this.budget_textBox.TabIndex = 1;
+            this.toolTip1.SetToolTip(this.budget_textBox, "Значение бюджета должно быть между 1000 и 100000.");
             this.budget_textBox.TextChanged += new System.EventHandler(this.budget_textBox_TextChanged);
+            this.budget_textBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.validate_numeric_values);
             // 
             // budget_clean_button
             // 
             this.budget_clean_button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.budget_clean_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.budget_clean_button.Location = new System.Drawing.Point(717, 0);
+            this.budget_clean_button.Location = new System.Drawing.Point(714, 0);
             this.budget_clean_button.Name = "budget_clean_button";
             this.budget_clean_button.Size = new System.Drawing.Size(75, 25);
             this.budget_clean_button.TabIndex = 0;
@@ -1128,7 +1069,7 @@
             this.score_1_groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.score_1_groupBox.Location = new System.Drawing.Point(4, 66);
             this.score_1_groupBox.Name = "score_1_groupBox";
-            this.score_1_groupBox.Size = new System.Drawing.Size(811, 185);
+            this.score_1_groupBox.Size = new System.Drawing.Size(808, 185);
             this.score_1_groupBox.TabIndex = 6;
             this.score_1_groupBox.TabStop = false;
             this.score_1_groupBox.Text = "1";
@@ -1154,7 +1095,7 @@
             this.score_1_tableLayoutPanel.RowCount = 2;
             this.score_1_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
             this.score_1_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.score_1_tableLayoutPanel.Size = new System.Drawing.Size(805, 160);
+            this.score_1_tableLayoutPanel.Size = new System.Drawing.Size(802, 160);
             this.score_1_tableLayoutPanel.TabIndex = 0;
             // 
             // unselected_1_listBox
@@ -1166,7 +1107,7 @@
             this.unselected_1_listBox.Location = new System.Drawing.Point(3, 28);
             this.unselected_1_listBox.Name = "unselected_1_listBox";
             this.unselected_1_listBox.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.unselected_1_listBox.Size = new System.Drawing.Size(376, 121);
+            this.unselected_1_listBox.Size = new System.Drawing.Size(375, 121);
             this.unselected_1_listBox.Sorted = true;
             this.unselected_1_listBox.TabIndex = 0;
             this.unselected_1_listBox.SelectedIndexChanged += new System.EventHandler(this.unselected_1_listBox_SelectedIndexChanged);
@@ -1178,10 +1119,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.selected_1_listBox.FormattingEnabled = true;
-            this.selected_1_listBox.Location = new System.Drawing.Point(425, 28);
+            this.selected_1_listBox.Location = new System.Drawing.Point(424, 28);
             this.selected_1_listBox.Name = "selected_1_listBox";
             this.selected_1_listBox.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.selected_1_listBox.Size = new System.Drawing.Size(377, 121);
+            this.selected_1_listBox.Size = new System.Drawing.Size(375, 121);
             this.selected_1_listBox.Sorted = true;
             this.selected_1_listBox.TabIndex = 1;
             this.selected_1_listBox.SelectedIndexChanged += new System.EventHandler(this.selected_1_listBox_SelectedIndexChanged);
@@ -1194,7 +1135,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.unselected_1_filter_textBox.Location = new System.Drawing.Point(3, 3);
             this.unselected_1_filter_textBox.Name = "unselected_1_filter_textBox";
-            this.unselected_1_filter_textBox.Size = new System.Drawing.Size(376, 20);
+            this.unselected_1_filter_textBox.Size = new System.Drawing.Size(375, 20);
             this.unselected_1_filter_textBox.TabIndex = 2;
             this.unselected_1_filter_textBox.TextChanged += new System.EventHandler(this.unselected_1_filter_textBox_TextChanged);
             // 
@@ -1203,9 +1144,9 @@
             this.selected_1_filter_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.selected_1_filter_textBox.Location = new System.Drawing.Point(425, 3);
+            this.selected_1_filter_textBox.Location = new System.Drawing.Point(424, 3);
             this.selected_1_filter_textBox.Name = "selected_1_filter_textBox";
-            this.selected_1_filter_textBox.Size = new System.Drawing.Size(377, 20);
+            this.selected_1_filter_textBox.Size = new System.Drawing.Size(375, 20);
             this.selected_1_filter_textBox.TabIndex = 3;
             this.selected_1_filter_textBox.TextChanged += new System.EventHandler(this.selected_1_filter_textBox_TextChanged);
             // 
@@ -1218,7 +1159,7 @@
             this.score_1_panel.Controls.Add(this.unselect_1_button);
             this.score_1_panel.Controls.Add(this.select_all_1_button);
             this.score_1_panel.Controls.Add(this.select_1_button);
-            this.score_1_panel.Location = new System.Drawing.Point(385, 28);
+            this.score_1_panel.Location = new System.Drawing.Point(384, 28);
             this.score_1_panel.Name = "score_1_panel";
             this.score_1_panel.Size = new System.Drawing.Size(34, 129);
             this.score_1_panel.TabIndex = 4;
@@ -1271,6 +1212,614 @@
             this.select_1_button.UseVisualStyleBackColor = true;
             this.select_1_button.Click += new System.EventHandler(this.select_1_button_Click);
             // 
+            // score_7_groupBox
+            // 
+            this.score_7_groupBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.score_7_groupBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.score_7_groupBox.Controls.Add(this.score_7_tableLayoutPanel);
+            this.score_7_groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.score_7_groupBox.Location = new System.Drawing.Point(4, 1212);
+            this.score_7_groupBox.Name = "score_7_groupBox";
+            this.score_7_groupBox.Size = new System.Drawing.Size(808, 185);
+            this.score_7_groupBox.TabIndex = 14;
+            this.score_7_groupBox.TabStop = false;
+            this.score_7_groupBox.Text = "7";
+            this.score_7_groupBox.Enter += new System.EventHandler(this.score_7_groupBox_Enter);
+            // 
+            // score_7_tableLayoutPanel
+            // 
+            this.score_7_tableLayoutPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.score_7_tableLayoutPanel.ColumnCount = 3;
+            this.score_7_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.score_7_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.score_7_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.score_7_tableLayoutPanel.Controls.Add(this.unselected_7_listBox, 0, 1);
+            this.score_7_tableLayoutPanel.Controls.Add(this.selected_7_listBox, 2, 1);
+            this.score_7_tableLayoutPanel.Controls.Add(this.unselected_7_filter_textBox, 0, 0);
+            this.score_7_tableLayoutPanel.Controls.Add(this.selected_7_filter_textBox, 2, 0);
+            this.score_7_tableLayoutPanel.Controls.Add(this.score_7_panel, 1, 1);
+            this.score_7_tableLayoutPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.score_7_tableLayoutPanel.Location = new System.Drawing.Point(0, 25);
+            this.score_7_tableLayoutPanel.Name = "score_7_tableLayoutPanel";
+            this.score_7_tableLayoutPanel.RowCount = 2;
+            this.score_7_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.score_7_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.score_7_tableLayoutPanel.Size = new System.Drawing.Size(802, 160);
+            this.score_7_tableLayoutPanel.TabIndex = 0;
+            // 
+            // unselected_7_listBox
+            // 
+            this.unselected_7_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.unselected_7_listBox.FormattingEnabled = true;
+            this.unselected_7_listBox.Location = new System.Drawing.Point(3, 28);
+            this.unselected_7_listBox.Name = "unselected_7_listBox";
+            this.unselected_7_listBox.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
+            this.unselected_7_listBox.Size = new System.Drawing.Size(375, 121);
+            this.unselected_7_listBox.Sorted = true;
+            this.unselected_7_listBox.TabIndex = 0;
+            this.unselected_7_listBox.SelectedIndexChanged += new System.EventHandler(this.unselected_7_listBox_SelectedIndexChanged);
+            this.unselected_7_listBox.DoubleClick += new System.EventHandler(this.unselected_7_listBox_DoubleClick);
+            // 
+            // selected_7_listBox
+            // 
+            this.selected_7_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.selected_7_listBox.FormattingEnabled = true;
+            this.selected_7_listBox.Location = new System.Drawing.Point(424, 28);
+            this.selected_7_listBox.Name = "selected_7_listBox";
+            this.selected_7_listBox.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
+            this.selected_7_listBox.Size = new System.Drawing.Size(375, 121);
+            this.selected_7_listBox.Sorted = true;
+            this.selected_7_listBox.TabIndex = 1;
+            this.selected_7_listBox.SelectedIndexChanged += new System.EventHandler(this.selected_7_listBox_SelectedIndexChanged);
+            this.selected_7_listBox.DoubleClick += new System.EventHandler(this.selected_7_listBox_DoubleClick);
+            // 
+            // unselected_7_filter_textBox
+            // 
+            this.unselected_7_filter_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.unselected_7_filter_textBox.Location = new System.Drawing.Point(3, 3);
+            this.unselected_7_filter_textBox.Name = "unselected_7_filter_textBox";
+            this.unselected_7_filter_textBox.Size = new System.Drawing.Size(375, 20);
+            this.unselected_7_filter_textBox.TabIndex = 2;
+            this.unselected_7_filter_textBox.TextChanged += new System.EventHandler(this.unselected_7_filter_textBox_TextChanged);
+            // 
+            // selected_7_filter_textBox
+            // 
+            this.selected_7_filter_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.selected_7_filter_textBox.Location = new System.Drawing.Point(424, 3);
+            this.selected_7_filter_textBox.Name = "selected_7_filter_textBox";
+            this.selected_7_filter_textBox.Size = new System.Drawing.Size(375, 20);
+            this.selected_7_filter_textBox.TabIndex = 3;
+            this.selected_7_filter_textBox.TextChanged += new System.EventHandler(this.selected_7_filter_textBox_TextChanged);
+            // 
+            // score_7_panel
+            // 
+            this.score_7_panel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.score_7_panel.Controls.Add(this.unselect_all_7_button);
+            this.score_7_panel.Controls.Add(this.unselect_7_button);
+            this.score_7_panel.Controls.Add(this.select_all_7_button);
+            this.score_7_panel.Controls.Add(this.select_7_button);
+            this.score_7_panel.Location = new System.Drawing.Point(384, 28);
+            this.score_7_panel.Name = "score_7_panel";
+            this.score_7_panel.Size = new System.Drawing.Size(34, 129);
+            this.score_7_panel.TabIndex = 4;
+            // 
+            // unselect_all_7_button
+            // 
+            this.unselect_all_7_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.unselect_all_7_button.Location = new System.Drawing.Point(0, 98);
+            this.unselect_all_7_button.Name = "unselect_all_7_button";
+            this.unselect_all_7_button.Size = new System.Drawing.Size(34, 23);
+            this.unselect_all_7_button.TabIndex = 3;
+            this.unselect_all_7_button.Text = "<<";
+            this.unselect_all_7_button.UseVisualStyleBackColor = true;
+            this.unselect_all_7_button.Click += new System.EventHandler(this.unselect_all_7_button_Click);
+            // 
+            // unselect_7_button
+            // 
+            this.unselect_7_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.unselect_7_button.Location = new System.Drawing.Point(0, 69);
+            this.unselect_7_button.Name = "unselect_7_button";
+            this.unselect_7_button.Size = new System.Drawing.Size(34, 23);
+            this.unselect_7_button.TabIndex = 2;
+            this.unselect_7_button.Text = "<";
+            this.unselect_7_button.UseVisualStyleBackColor = true;
+            this.unselect_7_button.Click += new System.EventHandler(this.unselect_7_button_Click);
+            // 
+            // select_all_7_button
+            // 
+            this.select_all_7_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.select_all_7_button.Location = new System.Drawing.Point(0, 29);
+            this.select_all_7_button.Name = "select_all_7_button";
+            this.select_all_7_button.Size = new System.Drawing.Size(34, 23);
+            this.select_all_7_button.TabIndex = 1;
+            this.select_all_7_button.Text = ">>";
+            this.select_all_7_button.UseVisualStyleBackColor = true;
+            this.select_all_7_button.Click += new System.EventHandler(this.select_all_7_button_Click);
+            // 
+            // select_7_button
+            // 
+            this.select_7_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.select_7_button.Location = new System.Drawing.Point(0, 0);
+            this.select_7_button.Name = "select_7_button";
+            this.select_7_button.Size = new System.Drawing.Size(34, 23);
+            this.select_7_button.TabIndex = 0;
+            this.select_7_button.Text = ">";
+            this.select_7_button.UseVisualStyleBackColor = true;
+            this.select_7_button.Click += new System.EventHandler(this.select_7_button_Click);
+            // 
+            // score_8_groupBox
+            // 
+            this.score_8_groupBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.score_8_groupBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.score_8_groupBox.Controls.Add(this.score_8_tableLayoutPanel);
+            this.score_8_groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.score_8_groupBox.Location = new System.Drawing.Point(4, 1403);
+            this.score_8_groupBox.Name = "score_8_groupBox";
+            this.score_8_groupBox.Size = new System.Drawing.Size(808, 185);
+            this.score_8_groupBox.TabIndex = 15;
+            this.score_8_groupBox.TabStop = false;
+            this.score_8_groupBox.Text = "8";
+            this.score_8_groupBox.Enter += new System.EventHandler(this.score_8_groupBox_Enter);
+            // 
+            // score_8_tableLayoutPanel
+            // 
+            this.score_8_tableLayoutPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.score_8_tableLayoutPanel.ColumnCount = 3;
+            this.score_8_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.score_8_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.score_8_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.score_8_tableLayoutPanel.Controls.Add(this.unselected_8_listBox, 0, 1);
+            this.score_8_tableLayoutPanel.Controls.Add(this.selected_8_listBox, 2, 1);
+            this.score_8_tableLayoutPanel.Controls.Add(this.unselected_8_filter_textBox, 0, 0);
+            this.score_8_tableLayoutPanel.Controls.Add(this.selected_8_filter_textBox, 2, 0);
+            this.score_8_tableLayoutPanel.Controls.Add(this.score_8_panel, 1, 1);
+            this.score_8_tableLayoutPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.score_8_tableLayoutPanel.Location = new System.Drawing.Point(0, 25);
+            this.score_8_tableLayoutPanel.Name = "score_8_tableLayoutPanel";
+            this.score_8_tableLayoutPanel.RowCount = 2;
+            this.score_8_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.score_8_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.score_8_tableLayoutPanel.Size = new System.Drawing.Size(802, 160);
+            this.score_8_tableLayoutPanel.TabIndex = 0;
+            // 
+            // unselected_8_listBox
+            // 
+            this.unselected_8_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.unselected_8_listBox.FormattingEnabled = true;
+            this.unselected_8_listBox.Location = new System.Drawing.Point(3, 28);
+            this.unselected_8_listBox.Name = "unselected_8_listBox";
+            this.unselected_8_listBox.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
+            this.unselected_8_listBox.Size = new System.Drawing.Size(375, 121);
+            this.unselected_8_listBox.Sorted = true;
+            this.unselected_8_listBox.TabIndex = 0;
+            this.unselected_8_listBox.SelectedIndexChanged += new System.EventHandler(this.unselected_8_listBox_SelectedIndexChanged);
+            this.unselected_8_listBox.DoubleClick += new System.EventHandler(this.unselected_8_listBox_DoubleClick);
+            // 
+            // selected_8_listBox
+            // 
+            this.selected_8_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.selected_8_listBox.FormattingEnabled = true;
+            this.selected_8_listBox.Location = new System.Drawing.Point(424, 28);
+            this.selected_8_listBox.Name = "selected_8_listBox";
+            this.selected_8_listBox.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
+            this.selected_8_listBox.Size = new System.Drawing.Size(375, 121);
+            this.selected_8_listBox.Sorted = true;
+            this.selected_8_listBox.TabIndex = 1;
+            this.selected_8_listBox.SelectedIndexChanged += new System.EventHandler(this.selected_8_listBox_SelectedIndexChanged);
+            this.selected_8_listBox.DoubleClick += new System.EventHandler(this.selected_8_listBox_DoubleClick);
+            // 
+            // unselected_8_filter_textBox
+            // 
+            this.unselected_8_filter_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.unselected_8_filter_textBox.Location = new System.Drawing.Point(3, 3);
+            this.unselected_8_filter_textBox.Name = "unselected_8_filter_textBox";
+            this.unselected_8_filter_textBox.Size = new System.Drawing.Size(375, 20);
+            this.unselected_8_filter_textBox.TabIndex = 2;
+            this.unselected_8_filter_textBox.TextChanged += new System.EventHandler(this.unselected_8_filter_textBox_TextChanged);
+            // 
+            // selected_8_filter_textBox
+            // 
+            this.selected_8_filter_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.selected_8_filter_textBox.Location = new System.Drawing.Point(424, 3);
+            this.selected_8_filter_textBox.Name = "selected_8_filter_textBox";
+            this.selected_8_filter_textBox.Size = new System.Drawing.Size(375, 20);
+            this.selected_8_filter_textBox.TabIndex = 3;
+            this.selected_8_filter_textBox.TextChanged += new System.EventHandler(this.selected_8_filter_textBox_TextChanged);
+            // 
+            // score_8_panel
+            // 
+            this.score_8_panel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.score_8_panel.Controls.Add(this.unselect_all_8_button);
+            this.score_8_panel.Controls.Add(this.unselect_8_button);
+            this.score_8_panel.Controls.Add(this.select_all_8_button);
+            this.score_8_panel.Controls.Add(this.select_8_button);
+            this.score_8_panel.Location = new System.Drawing.Point(384, 28);
+            this.score_8_panel.Name = "score_8_panel";
+            this.score_8_panel.Size = new System.Drawing.Size(34, 129);
+            this.score_8_panel.TabIndex = 4;
+            // 
+            // unselect_all_8_button
+            // 
+            this.unselect_all_8_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.unselect_all_8_button.Location = new System.Drawing.Point(0, 98);
+            this.unselect_all_8_button.Name = "unselect_all_8_button";
+            this.unselect_all_8_button.Size = new System.Drawing.Size(34, 23);
+            this.unselect_all_8_button.TabIndex = 3;
+            this.unselect_all_8_button.Text = "<<";
+            this.unselect_all_8_button.UseVisualStyleBackColor = true;
+            this.unselect_all_8_button.Click += new System.EventHandler(this.unselect_all_8_button_Click);
+            // 
+            // unselect_8_button
+            // 
+            this.unselect_8_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.unselect_8_button.Location = new System.Drawing.Point(0, 69);
+            this.unselect_8_button.Name = "unselect_8_button";
+            this.unselect_8_button.Size = new System.Drawing.Size(34, 23);
+            this.unselect_8_button.TabIndex = 2;
+            this.unselect_8_button.Text = "<";
+            this.unselect_8_button.UseVisualStyleBackColor = true;
+            this.unselect_8_button.Click += new System.EventHandler(this.unselect_8_button_Click);
+            // 
+            // select_all_8_button
+            // 
+            this.select_all_8_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.select_all_8_button.Location = new System.Drawing.Point(0, 29);
+            this.select_all_8_button.Name = "select_all_8_button";
+            this.select_all_8_button.Size = new System.Drawing.Size(34, 23);
+            this.select_all_8_button.TabIndex = 1;
+            this.select_all_8_button.Text = ">>";
+            this.select_all_8_button.UseVisualStyleBackColor = true;
+            this.select_all_8_button.Click += new System.EventHandler(this.select_all_8_button_Click);
+            // 
+            // select_8_button
+            // 
+            this.select_8_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.select_8_button.Location = new System.Drawing.Point(0, 0);
+            this.select_8_button.Name = "select_8_button";
+            this.select_8_button.Size = new System.Drawing.Size(34, 23);
+            this.select_8_button.TabIndex = 0;
+            this.select_8_button.Text = ">";
+            this.select_8_button.UseVisualStyleBackColor = true;
+            this.select_8_button.Click += new System.EventHandler(this.select_8_button_Click);
+            // 
+            // score_9_groupBox
+            // 
+            this.score_9_groupBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.score_9_groupBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.score_9_groupBox.Controls.Add(this.score_9_tableLayoutPanel);
+            this.score_9_groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.score_9_groupBox.Location = new System.Drawing.Point(3, 1594);
+            this.score_9_groupBox.Name = "score_9_groupBox";
+            this.score_9_groupBox.Size = new System.Drawing.Size(808, 185);
+            this.score_9_groupBox.TabIndex = 16;
+            this.score_9_groupBox.TabStop = false;
+            this.score_9_groupBox.Text = "9";
+            this.score_9_groupBox.Enter += new System.EventHandler(this.score_9_groupBox_Enter);
+            // 
+            // score_9_tableLayoutPanel
+            // 
+            this.score_9_tableLayoutPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.score_9_tableLayoutPanel.ColumnCount = 3;
+            this.score_9_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.score_9_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.score_9_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.score_9_tableLayoutPanel.Controls.Add(this.unselected_9_listBox, 0, 1);
+            this.score_9_tableLayoutPanel.Controls.Add(this.selected_9_listBox, 2, 1);
+            this.score_9_tableLayoutPanel.Controls.Add(this.unselected_9_filter_textBox, 0, 0);
+            this.score_9_tableLayoutPanel.Controls.Add(this.selected_9_filter_textBox, 2, 0);
+            this.score_9_tableLayoutPanel.Controls.Add(this.score_9_panel, 1, 1);
+            this.score_9_tableLayoutPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.score_9_tableLayoutPanel.Location = new System.Drawing.Point(0, 25);
+            this.score_9_tableLayoutPanel.Name = "score_9_tableLayoutPanel";
+            this.score_9_tableLayoutPanel.RowCount = 2;
+            this.score_9_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.score_9_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.score_9_tableLayoutPanel.Size = new System.Drawing.Size(802, 160);
+            this.score_9_tableLayoutPanel.TabIndex = 0;
+            // 
+            // unselected_9_listBox
+            // 
+            this.unselected_9_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.unselected_9_listBox.FormattingEnabled = true;
+            this.unselected_9_listBox.Location = new System.Drawing.Point(3, 28);
+            this.unselected_9_listBox.Name = "unselected_9_listBox";
+            this.unselected_9_listBox.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
+            this.unselected_9_listBox.Size = new System.Drawing.Size(375, 121);
+            this.unselected_9_listBox.Sorted = true;
+            this.unselected_9_listBox.TabIndex = 0;
+            this.unselected_9_listBox.SelectedIndexChanged += new System.EventHandler(this.unselected_9_listBox_SelectedIndexChanged);
+            this.unselected_9_listBox.DoubleClick += new System.EventHandler(this.unselected_9_listBox_DoubleClick);
+            // 
+            // selected_9_listBox
+            // 
+            this.selected_9_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.selected_9_listBox.FormattingEnabled = true;
+            this.selected_9_listBox.Location = new System.Drawing.Point(424, 28);
+            this.selected_9_listBox.Name = "selected_9_listBox";
+            this.selected_9_listBox.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
+            this.selected_9_listBox.Size = new System.Drawing.Size(375, 121);
+            this.selected_9_listBox.Sorted = true;
+            this.selected_9_listBox.TabIndex = 1;
+            this.selected_9_listBox.SelectedIndexChanged += new System.EventHandler(this.selected_9_listBox_SelectedIndexChanged);
+            this.selected_9_listBox.DoubleClick += new System.EventHandler(this.selected_9_listBox_DoubleClick);
+            // 
+            // unselected_9_filter_textBox
+            // 
+            this.unselected_9_filter_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.unselected_9_filter_textBox.Location = new System.Drawing.Point(3, 3);
+            this.unselected_9_filter_textBox.Name = "unselected_9_filter_textBox";
+            this.unselected_9_filter_textBox.Size = new System.Drawing.Size(375, 20);
+            this.unselected_9_filter_textBox.TabIndex = 2;
+            this.unselected_9_filter_textBox.TextChanged += new System.EventHandler(this.unselected_9_filter_textBox_TextChanged);
+            // 
+            // selected_9_filter_textBox
+            // 
+            this.selected_9_filter_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.selected_9_filter_textBox.Location = new System.Drawing.Point(424, 3);
+            this.selected_9_filter_textBox.Name = "selected_9_filter_textBox";
+            this.selected_9_filter_textBox.Size = new System.Drawing.Size(375, 20);
+            this.selected_9_filter_textBox.TabIndex = 3;
+            this.selected_9_filter_textBox.TextChanged += new System.EventHandler(this.selected_9_filter_textBox_TextChanged);
+            // 
+            // score_9_panel
+            // 
+            this.score_9_panel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.score_9_panel.Controls.Add(this.unselect_all_9_button);
+            this.score_9_panel.Controls.Add(this.unselect_9_button);
+            this.score_9_panel.Controls.Add(this.select_all_9_button);
+            this.score_9_panel.Controls.Add(this.select_9_button);
+            this.score_9_panel.Location = new System.Drawing.Point(384, 28);
+            this.score_9_panel.Name = "score_9_panel";
+            this.score_9_panel.Size = new System.Drawing.Size(34, 129);
+            this.score_9_panel.TabIndex = 4;
+            // 
+            // unselect_all_9_button
+            // 
+            this.unselect_all_9_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.unselect_all_9_button.Location = new System.Drawing.Point(0, 98);
+            this.unselect_all_9_button.Name = "unselect_all_9_button";
+            this.unselect_all_9_button.Size = new System.Drawing.Size(34, 23);
+            this.unselect_all_9_button.TabIndex = 3;
+            this.unselect_all_9_button.Text = "<<";
+            this.unselect_all_9_button.UseVisualStyleBackColor = true;
+            this.unselect_all_9_button.Click += new System.EventHandler(this.unselect_all_9_button_Click);
+            // 
+            // unselect_9_button
+            // 
+            this.unselect_9_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.unselect_9_button.Location = new System.Drawing.Point(0, 69);
+            this.unselect_9_button.Name = "unselect_9_button";
+            this.unselect_9_button.Size = new System.Drawing.Size(34, 23);
+            this.unselect_9_button.TabIndex = 2;
+            this.unselect_9_button.Text = "<";
+            this.unselect_9_button.UseVisualStyleBackColor = true;
+            this.unselect_9_button.Click += new System.EventHandler(this.unselect_9_button_Click);
+            // 
+            // select_all_9_button
+            // 
+            this.select_all_9_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.select_all_9_button.Location = new System.Drawing.Point(0, 29);
+            this.select_all_9_button.Name = "select_all_9_button";
+            this.select_all_9_button.Size = new System.Drawing.Size(34, 23);
+            this.select_all_9_button.TabIndex = 1;
+            this.select_all_9_button.Text = ">>";
+            this.select_all_9_button.UseVisualStyleBackColor = true;
+            this.select_all_9_button.Click += new System.EventHandler(this.select_all_9_button_Click);
+            // 
+            // select_9_button
+            // 
+            this.select_9_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.select_9_button.Location = new System.Drawing.Point(0, 0);
+            this.select_9_button.Name = "select_9_button";
+            this.select_9_button.Size = new System.Drawing.Size(34, 23);
+            this.select_9_button.TabIndex = 0;
+            this.select_9_button.Text = ">";
+            this.select_9_button.UseVisualStyleBackColor = true;
+            this.select_9_button.Click += new System.EventHandler(this.select_9_button_Click);
+            // 
+            // score_10_groupBox
+            // 
+            this.score_10_groupBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.score_10_groupBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.score_10_groupBox.Controls.Add(this.score_10_tableLayoutPanel);
+            this.score_10_groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.score_10_groupBox.Location = new System.Drawing.Point(4, 1785);
+            this.score_10_groupBox.Name = "score_10_groupBox";
+            this.score_10_groupBox.Size = new System.Drawing.Size(808, 185);
+            this.score_10_groupBox.TabIndex = 17;
+            this.score_10_groupBox.TabStop = false;
+            this.score_10_groupBox.Text = "10";
+            this.score_10_groupBox.Enter += new System.EventHandler(this.score_10_groupBox_Enter);
+            // 
+            // score_10_tableLayoutPanel
+            // 
+            this.score_10_tableLayoutPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.score_10_tableLayoutPanel.ColumnCount = 3;
+            this.score_10_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.score_10_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.score_10_tableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.score_10_tableLayoutPanel.Controls.Add(this.unselected_10_listBox, 0, 1);
+            this.score_10_tableLayoutPanel.Controls.Add(this.selected_10_listBox, 2, 1);
+            this.score_10_tableLayoutPanel.Controls.Add(this.unselected_10_filter_textBox, 0, 0);
+            this.score_10_tableLayoutPanel.Controls.Add(this.selected_10_filter_textBox, 2, 0);
+            this.score_10_tableLayoutPanel.Controls.Add(this.score_10_panel, 1, 1);
+            this.score_10_tableLayoutPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.score_10_tableLayoutPanel.Location = new System.Drawing.Point(0, 25);
+            this.score_10_tableLayoutPanel.Name = "score_10_tableLayoutPanel";
+            this.score_10_tableLayoutPanel.RowCount = 2;
+            this.score_10_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.score_10_tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.score_10_tableLayoutPanel.Size = new System.Drawing.Size(802, 160);
+            this.score_10_tableLayoutPanel.TabIndex = 0;
+            // 
+            // unselected_10_listBox
+            // 
+            this.unselected_10_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.unselected_10_listBox.FormattingEnabled = true;
+            this.unselected_10_listBox.Location = new System.Drawing.Point(3, 28);
+            this.unselected_10_listBox.Name = "unselected_10_listBox";
+            this.unselected_10_listBox.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
+            this.unselected_10_listBox.Size = new System.Drawing.Size(375, 121);
+            this.unselected_10_listBox.Sorted = true;
+            this.unselected_10_listBox.TabIndex = 0;
+            this.unselected_10_listBox.SelectedIndexChanged += new System.EventHandler(this.unselected_10_listBox_SelectedIndexChanged);
+            this.unselected_10_listBox.DoubleClick += new System.EventHandler(this.unselected_10_listBox_DoubleClick);
+            // 
+            // selected_10_listBox
+            // 
+            this.selected_10_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.selected_10_listBox.FormattingEnabled = true;
+            this.selected_10_listBox.Location = new System.Drawing.Point(424, 28);
+            this.selected_10_listBox.Name = "selected_10_listBox";
+            this.selected_10_listBox.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
+            this.selected_10_listBox.Size = new System.Drawing.Size(375, 121);
+            this.selected_10_listBox.Sorted = true;
+            this.selected_10_listBox.TabIndex = 1;
+            this.selected_10_listBox.SelectedIndexChanged += new System.EventHandler(this.selected_10_listBox_SelectedIndexChanged);
+            this.selected_10_listBox.DoubleClick += new System.EventHandler(this.selected_10_listBox_DoubleClick);
+            // 
+            // unselected_10_filter_textBox
+            // 
+            this.unselected_10_filter_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.unselected_10_filter_textBox.Location = new System.Drawing.Point(3, 3);
+            this.unselected_10_filter_textBox.Name = "unselected_10_filter_textBox";
+            this.unselected_10_filter_textBox.Size = new System.Drawing.Size(375, 20);
+            this.unselected_10_filter_textBox.TabIndex = 2;
+            this.unselected_10_filter_textBox.TextChanged += new System.EventHandler(this.unselected_10_filter_textBox_TextChanged);
+            // 
+            // selected_10_filter_textBox
+            // 
+            this.selected_10_filter_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.selected_10_filter_textBox.Location = new System.Drawing.Point(424, 3);
+            this.selected_10_filter_textBox.Name = "selected_10_filter_textBox";
+            this.selected_10_filter_textBox.Size = new System.Drawing.Size(375, 20);
+            this.selected_10_filter_textBox.TabIndex = 3;
+            this.selected_10_filter_textBox.TextChanged += new System.EventHandler(this.selected_10_filter_textBox_TextChanged);
+            // 
+            // score_10_panel
+            // 
+            this.score_10_panel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.score_10_panel.Controls.Add(this.unselect_all_10_button);
+            this.score_10_panel.Controls.Add(this.unselect_10_button);
+            this.score_10_panel.Controls.Add(this.select_all_10_button);
+            this.score_10_panel.Controls.Add(this.select_10_button);
+            this.score_10_panel.Location = new System.Drawing.Point(384, 28);
+            this.score_10_panel.Name = "score_10_panel";
+            this.score_10_panel.Size = new System.Drawing.Size(34, 129);
+            this.score_10_panel.TabIndex = 4;
+            // 
+            // unselect_all_10_button
+            // 
+            this.unselect_all_10_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.unselect_all_10_button.Location = new System.Drawing.Point(0, 98);
+            this.unselect_all_10_button.Name = "unselect_all_10_button";
+            this.unselect_all_10_button.Size = new System.Drawing.Size(34, 23);
+            this.unselect_all_10_button.TabIndex = 3;
+            this.unselect_all_10_button.Text = "<<";
+            this.unselect_all_10_button.UseVisualStyleBackColor = true;
+            this.unselect_all_10_button.Click += new System.EventHandler(this.unselect_all_10_button_Click);
+            // 
+            // unselect_10_button
+            // 
+            this.unselect_10_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.unselect_10_button.Location = new System.Drawing.Point(0, 69);
+            this.unselect_10_button.Name = "unselect_10_button";
+            this.unselect_10_button.Size = new System.Drawing.Size(34, 23);
+            this.unselect_10_button.TabIndex = 2;
+            this.unselect_10_button.Text = "<";
+            this.unselect_10_button.UseVisualStyleBackColor = true;
+            this.unselect_10_button.Click += new System.EventHandler(this.unselect_10_button_Click);
+            // 
+            // select_all_10_button
+            // 
+            this.select_all_10_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.select_all_10_button.Location = new System.Drawing.Point(0, 29);
+            this.select_all_10_button.Name = "select_all_10_button";
+            this.select_all_10_button.Size = new System.Drawing.Size(34, 23);
+            this.select_all_10_button.TabIndex = 1;
+            this.select_all_10_button.Text = ">>";
+            this.select_all_10_button.UseVisualStyleBackColor = true;
+            this.select_all_10_button.Click += new System.EventHandler(this.select_all_10_button_Click);
+            // 
+            // select_10_button
+            // 
+            this.select_10_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.select_10_button.Location = new System.Drawing.Point(0, 0);
+            this.select_10_button.Name = "select_10_button";
+            this.select_10_button.Size = new System.Drawing.Size(34, 23);
+            this.select_10_button.TabIndex = 0;
+            this.select_10_button.Text = ">";
+            this.select_10_button.UseVisualStyleBackColor = true;
+            this.select_10_button.Click += new System.EventHandler(this.select_10_button_Click);
+            // 
             // create_scores_config_file
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1288,18 +1837,18 @@
             this.Text = "mobile.de Создать конфигурацию оценек";
             this.Load += new System.EventHandler(this.create_scores_config_file_Load);
             this.score_config_main_panel.ResumeLayout(false);
-            this.groupBox5.ResumeLayout(false);
-            this.tableLayoutPanel5.ResumeLayout(false);
-            this.tableLayoutPanel5.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.groupBox4.ResumeLayout(false);
-            this.tableLayoutPanel4.ResumeLayout(false);
-            this.tableLayoutPanel4.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.groupBox3.ResumeLayout(false);
-            this.tableLayoutPanel3.ResumeLayout(false);
-            this.tableLayoutPanel3.PerformLayout();
-            this.panel3.ResumeLayout(false);
+            this.score_6_groupBox.ResumeLayout(false);
+            this.score_6_tableLayoutPanel.ResumeLayout(false);
+            this.score_6_tableLayoutPanel.PerformLayout();
+            this.score_6_panel.ResumeLayout(false);
+            this.score_5_groupBox.ResumeLayout(false);
+            this.score_5_tableLayoutPanel.ResumeLayout(false);
+            this.score_5_tableLayoutPanel.PerformLayout();
+            this.score_5_panel.ResumeLayout(false);
+            this.score_4_groupBox.ResumeLayout(false);
+            this.score_4_tableLayoutPanel.ResumeLayout(false);
+            this.score_4_tableLayoutPanel.PerformLayout();
+            this.score_4_panel.ResumeLayout(false);
             this.score_3_groupBox.ResumeLayout(false);
             this.score_3_tableLayoutPanel.ResumeLayout(false);
             this.score_3_tableLayoutPanel.PerformLayout();
@@ -1308,16 +1857,28 @@
             this.score_2_tableLayoutPanel.ResumeLayout(false);
             this.score_2_tableLayoutPanel.PerformLayout();
             this.score_2_panel.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
             this.budget_groupBox.ResumeLayout(false);
             this.budget_groupBox.PerformLayout();
             this.score_1_groupBox.ResumeLayout(false);
             this.score_1_tableLayoutPanel.ResumeLayout(false);
             this.score_1_tableLayoutPanel.PerformLayout();
             this.score_1_panel.ResumeLayout(false);
+            this.score_7_groupBox.ResumeLayout(false);
+            this.score_7_tableLayoutPanel.ResumeLayout(false);
+            this.score_7_tableLayoutPanel.PerformLayout();
+            this.score_7_panel.ResumeLayout(false);
+            this.score_8_groupBox.ResumeLayout(false);
+            this.score_8_tableLayoutPanel.ResumeLayout(false);
+            this.score_8_tableLayoutPanel.PerformLayout();
+            this.score_8_panel.ResumeLayout(false);
+            this.score_9_groupBox.ResumeLayout(false);
+            this.score_9_tableLayoutPanel.ResumeLayout(false);
+            this.score_9_tableLayoutPanel.PerformLayout();
+            this.score_9_panel.ResumeLayout(false);
+            this.score_10_groupBox.ResumeLayout(false);
+            this.score_10_tableLayoutPanel.ResumeLayout(false);
+            this.score_10_tableLayoutPanel.PerformLayout();
+            this.score_10_panel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1344,17 +1905,6 @@
         private System.Windows.Forms.GroupBox budget_groupBox;
         private System.Windows.Forms.Button budget_clean_button;
         private System.Windows.Forms.TextBox budget_textBox;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.ListBox listBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.GroupBox score_2_groupBox;
         private System.Windows.Forms.TableLayoutPanel score_2_tableLayoutPanel;
         private System.Windows.Forms.ListBox unselected_2_listBox;
@@ -1366,39 +1916,39 @@
         private System.Windows.Forms.Button unselect_2_button;
         private System.Windows.Forms.Button select_all_2_button;
         private System.Windows.Forms.Button select_2_button;
-        private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
-        private System.Windows.Forms.ListBox listBox9;
-        private System.Windows.Forms.ListBox listBox10;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
-        private System.Windows.Forms.ListBox listBox7;
-        private System.Windows.Forms.ListBox listBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private System.Windows.Forms.ListBox listBox5;
-        private System.Windows.Forms.ListBox listBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.GroupBox score_6_groupBox;
+        private System.Windows.Forms.TableLayoutPanel score_6_tableLayoutPanel;
+        private System.Windows.Forms.ListBox unselected_6_listBox;
+        private System.Windows.Forms.ListBox selected_6_listBox;
+        private System.Windows.Forms.TextBox unselected_6_filter_textBox;
+        private System.Windows.Forms.TextBox selected_6_filter_textBox;
+        private System.Windows.Forms.Panel score_6_panel;
+        private System.Windows.Forms.Button unselect_all_6_button;
+        private System.Windows.Forms.Button unselect_6_button;
+        private System.Windows.Forms.Button select_all_6_button;
+        private System.Windows.Forms.Button select_6_button;
+        private System.Windows.Forms.GroupBox score_5_groupBox;
+        private System.Windows.Forms.TableLayoutPanel score_5_tableLayoutPanel;
+        private System.Windows.Forms.ListBox unselected_5_listBox;
+        private System.Windows.Forms.ListBox selected_5_listBox;
+        private System.Windows.Forms.TextBox unselected_5_filter_textBox;
+        private System.Windows.Forms.TextBox selected_5_filter_textBox;
+        private System.Windows.Forms.Panel score_5_panel;
+        private System.Windows.Forms.Button unselect_all_5_button;
+        private System.Windows.Forms.Button unselect_5_button;
+        private System.Windows.Forms.Button select_all_5_button;
+        private System.Windows.Forms.Button select_5_button;
+        private System.Windows.Forms.GroupBox score_4_groupBox;
+        private System.Windows.Forms.TableLayoutPanel score_4_tableLayoutPanel;
+        private System.Windows.Forms.ListBox unselected_4_listBox;
+        private System.Windows.Forms.ListBox selected_4_listBox;
+        private System.Windows.Forms.TextBox unselected_4_filter_textBox;
+        private System.Windows.Forms.TextBox selected_4_filter_textBox;
+        private System.Windows.Forms.Panel score_4_panel;
+        private System.Windows.Forms.Button unselect_all_4_button;
+        private System.Windows.Forms.Button unselect_4_button;
+        private System.Windows.Forms.Button select_all_4_button;
+        private System.Windows.Forms.Button select_4_button;
         private System.Windows.Forms.GroupBox score_3_groupBox;
         private System.Windows.Forms.TableLayoutPanel score_3_tableLayoutPanel;
         private System.Windows.Forms.ListBox unselected_3_listBox;
@@ -1410,5 +1960,50 @@
         private System.Windows.Forms.Button select_all_3_button;
         private System.Windows.Forms.Button select_3_button;
         private System.Windows.Forms.ListBox selected_3_listBox;
+        private System.Windows.Forms.GroupBox score_7_groupBox;
+        private System.Windows.Forms.TableLayoutPanel score_7_tableLayoutPanel;
+        private System.Windows.Forms.ListBox unselected_7_listBox;
+        private System.Windows.Forms.ListBox selected_7_listBox;
+        private System.Windows.Forms.TextBox unselected_7_filter_textBox;
+        private System.Windows.Forms.TextBox selected_7_filter_textBox;
+        private System.Windows.Forms.Panel score_7_panel;
+        private System.Windows.Forms.Button unselect_all_7_button;
+        private System.Windows.Forms.Button unselect_7_button;
+        private System.Windows.Forms.Button select_all_7_button;
+        private System.Windows.Forms.Button select_7_button;
+        private System.Windows.Forms.GroupBox score_10_groupBox;
+        private System.Windows.Forms.TableLayoutPanel score_10_tableLayoutPanel;
+        private System.Windows.Forms.ListBox unselected_10_listBox;
+        private System.Windows.Forms.ListBox selected_10_listBox;
+        private System.Windows.Forms.TextBox unselected_10_filter_textBox;
+        private System.Windows.Forms.TextBox selected_10_filter_textBox;
+        private System.Windows.Forms.Panel score_10_panel;
+        private System.Windows.Forms.Button unselect_all_10_button;
+        private System.Windows.Forms.Button unselect_10_button;
+        private System.Windows.Forms.Button select_all_10_button;
+        private System.Windows.Forms.Button select_10_button;
+        private System.Windows.Forms.GroupBox score_9_groupBox;
+        private System.Windows.Forms.TableLayoutPanel score_9_tableLayoutPanel;
+        private System.Windows.Forms.ListBox unselected_9_listBox;
+        private System.Windows.Forms.ListBox selected_9_listBox;
+        private System.Windows.Forms.TextBox unselected_9_filter_textBox;
+        private System.Windows.Forms.TextBox selected_9_filter_textBox;
+        private System.Windows.Forms.Panel score_9_panel;
+        private System.Windows.Forms.Button unselect_all_9_button;
+        private System.Windows.Forms.Button unselect_9_button;
+        private System.Windows.Forms.Button select_all_9_button;
+        private System.Windows.Forms.Button select_9_button;
+        private System.Windows.Forms.GroupBox score_8_groupBox;
+        private System.Windows.Forms.TableLayoutPanel score_8_tableLayoutPanel;
+        private System.Windows.Forms.ListBox unselected_8_listBox;
+        private System.Windows.Forms.ListBox selected_8_listBox;
+        private System.Windows.Forms.TextBox unselected_8_filter_textBox;
+        private System.Windows.Forms.TextBox selected_8_filter_textBox;
+        private System.Windows.Forms.Panel score_8_panel;
+        private System.Windows.Forms.Button unselect_all_8_button;
+        private System.Windows.Forms.Button unselect_8_button;
+        private System.Windows.Forms.Button select_all_8_button;
+        private System.Windows.Forms.Button select_8_button;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
