@@ -14,7 +14,7 @@ namespace mobile_de
 
         public void LoadJson()
         {
-            using (StreamReader r = new StreamReader(@"C:\Users\SoMaL\documents\visual studio 2015\Projects\mobile_de\mobile_de\data\cars.json"))
+            using (StreamReader r = new StreamReader(@"data\cars.json"))
             {
                 string json = r.ReadToEnd();
                 cars = JsonConvert.DeserializeObject<Dictionary<string, List<string>>>(json);

@@ -19,7 +19,7 @@ namespace mobile_de
             SetButtonsEditable();
         }
 
-        List<string> unselected_features = System.IO.File.ReadLines(@"C:\Users\SoMaL\documents\visual studio 2015\Projects\mobile_de\mobile_de\data\features.txt").ToList();
+        List<string> unselected_features = System.IO.File.ReadLines(Path.Combine(Environment.CurrentDirectory, @".\data\features.txt")).ToList();
         List<string> selected_1_features = new List<string>();
         List<string> selected_2_features = new List<string>();
         List<string> selected_3_features = new List<string>();

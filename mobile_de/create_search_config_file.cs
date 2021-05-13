@@ -1241,7 +1241,7 @@ namespace mobile_de
 
         private void initialize_number_of_doors()
         {
-            List<string> lines = System.IO.File.ReadLines(@"C:\Users\SoMaL\documents\visual studio 2015\Projects\mobile_de\mobile_de\data\number_of_doors.txt").ToList();
+            List<string> lines = System.IO.File.ReadLines(Path.Combine(Environment.CurrentDirectory, @".\data\number_of_doors.txt")).ToList();
 
             foreach (string line in lines)
             {
@@ -1253,7 +1253,7 @@ namespace mobile_de
 
         private void initialize_vehicle_color()
         {
-            List<string> lines = System.IO.File.ReadLines(@"C:\Users\SoMaL\documents\visual studio 2015\Projects\mobile_de\mobile_de\data\vehicle_color.txt").ToList();
+            List<string> lines = System.IO.File.ReadLines(Path.Combine(Environment.CurrentDirectory, @".\data\vehicle_color.txt")).ToList();
 
             foreach (string line in lines)
             {
@@ -1270,7 +1270,7 @@ namespace mobile_de
 
         private void initialize_airbags()
         {
-            List<string> lines = System.IO.File.ReadLines(@"C:\Users\SoMaL\documents\visual studio 2015\Projects\mobile_de\mobile_de\data\airbags.txt").ToList();
+            List<string> lines = System.IO.File.ReadLines(Path.Combine(Environment.CurrentDirectory, @".\data\airbags.txt")).ToList();
 
             foreach (string line in lines)
             {
@@ -1281,7 +1281,7 @@ namespace mobile_de
 
         private void initialize_ad_online_since()
         {
-            List<string> lines = System.IO.File.ReadLines(@"C:\Users\SoMaL\documents\visual studio 2015\Projects\mobile_de\mobile_de\data\ad_online_since.txt").ToList();
+            List<string> lines = System.IO.File.ReadLines(Path.Combine(Environment.CurrentDirectory, @".\data\ad_online_since.txt")).ToList();
 
             foreach (string line in lines)
             {
@@ -1292,7 +1292,7 @@ namespace mobile_de
 
         private void initialize_commercial_export_import()
         {
-            List<string> lines = System.IO.File.ReadLines(@"C:\Users\SoMaL\documents\visual studio 2015\Projects\mobile_de\mobile_de\data\commercial_export_import.txt").ToList();
+            List<string> lines = System.IO.File.ReadLines(Path.Combine(Environment.CurrentDirectory, @".\data\commercial_export_import.txt")).ToList();
 
             foreach (string line in lines)
             {
@@ -1303,7 +1303,7 @@ namespace mobile_de
 
         private void initialize_vat()
         {
-            List<string> lines = System.IO.File.ReadLines(@"C:\Users\SoMaL\documents\visual studio 2015\Projects\mobile_de\mobile_de\data\vat.txt").ToList();
+            List<string> lines = System.IO.File.ReadLines(Path.Combine(Environment.CurrentDirectory, @".\data\vat.txt")).ToList();
 
             foreach (string line in lines)
             {
@@ -1314,7 +1314,7 @@ namespace mobile_de
 
         private void initialize_emission_class()
         {
-            List<string> lines = System.IO.File.ReadLines(@"C:\Users\SoMaL\documents\visual studio 2015\Projects\mobile_de\mobile_de\data\emission_class.txt").ToList();
+            List<string> lines = System.IO.File.ReadLines(Path.Combine(Environment.CurrentDirectory, @".\data\emission_class.txt")).ToList();
 
             foreach (string line in lines)
             {
@@ -1325,7 +1325,7 @@ namespace mobile_de
 
         private void initialize_emission_sticker()
         {
-            List<string> lines = System.IO.File.ReadLines(@"C:\Users\SoMaL\documents\visual studio 2015\Projects\mobile_de\mobile_de\data\emission_sticker.txt").ToList();
+            List<string> lines = System.IO.File.ReadLines(Path.Combine(Environment.CurrentDirectory, @".\data\emission_sticker.txt")).ToList();
 
             foreach (string line in lines)
             {
@@ -1336,7 +1336,7 @@ namespace mobile_de
 
         private void initialize_damaged_vehicles()
         {
-            List<string> lines = System.IO.File.ReadLines(@"C:\Users\SoMaL\documents\visual studio 2015\Projects\mobile_de\mobile_de\data\damaged_vehicles.txt").ToList();
+            List<string> lines = System.IO.File.ReadLines(Path.Combine(Environment.CurrentDirectory, @".\data\damaged_vehicles.txt")).ToList();
 
             foreach (string line in lines)
             {
@@ -1347,7 +1347,7 @@ namespace mobile_de
 
         private void initialize_number_of_vehicle_owners()
         {
-            List<string> lines = System.IO.File.ReadLines(@"C:\Users\SoMaL\documents\visual studio 2015\Projects\mobile_de\mobile_de\data\number_of_vehicle_owners.txt").ToList();
+            List<string> lines = System.IO.File.ReadLines(Path.Combine(Environment.CurrentDirectory, @".\data\number_of_vehicle_owners.txt")).ToList();
 
             foreach (string line in lines)
             {
@@ -1358,7 +1358,7 @@ namespace mobile_de
 
         private void initialize_hu_valid_at_least_until_in_month()
         {
-            List<string> lines = System.IO.File.ReadLines(@"C:\Users\SoMaL\documents\visual studio 2015\Projects\mobile_de\mobile_de\data\hu_valid_at_least_until_in_month.txt").ToList();
+            List<string> lines = System.IO.File.ReadLines(Path.Combine(Environment.CurrentDirectory, @".\data\hu_valid_at_least_until_in_month.txt")).ToList();
 
             foreach (string line in lines)
             {
@@ -1369,7 +1369,7 @@ namespace mobile_de
 
         private void initialize_approved_used_programme()
         {
-            List<string> lines = System.IO.File.ReadLines(@"C:\Users\SoMaL\documents\visual studio 2015\Projects\mobile_de\mobile_de\data\approved_used_programme.txt").ToList();
+            List<string> lines = System.IO.File.ReadLines(Path.Combine(Environment.CurrentDirectory, @".\data\approved_used_programme.txt")).ToList();
 
             foreach (string line in lines)
             {
