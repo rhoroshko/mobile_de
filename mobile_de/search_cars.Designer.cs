@@ -82,6 +82,7 @@
             this.search_cars_start_button.TabIndex = 0;
             this.search_cars_start_button.Text = "Начать поиск";
             this.search_cars_start_button.UseVisualStyleBackColor = true;
+            this.search_cars_start_button.Click += new System.EventHandler(this.search_cars_start_button_Click);
             // 
             // search_config_groupBox
             // 
@@ -231,6 +232,7 @@
             this.MinimumSize = new System.Drawing.Size(850, 400);
             this.Name = "search_cars";
             this.Text = "mobile.de Начать поиск";
+            this.Load += new System.EventHandler(this.search_cars_Load);
             this.search_cars_main_panel.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.search_config_groupBox.ResumeLayout(false);
