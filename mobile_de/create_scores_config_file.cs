@@ -19,7 +19,9 @@ namespace mobile_de
             SetButtonsEditable();
         }
 
-        List<string> unselected_features = System.IO.File.ReadLines(Path.Combine(Environment.CurrentDirectory, @".\data\features.txt")).ToList();
+        List<string> init_unselected_features = System.IO.File.ReadLines(Path.Combine(Environment.CurrentDirectory, @".\data\features.txt")).ToList();
+        List<string> unselected_features = new List<string>();
+
         List<string> selected_1_features = new List<string>();
         List<string> selected_2_features = new List<string>();
         List<string> selected_3_features = new List<string>();
@@ -33,6 +35,8 @@ namespace mobile_de
 
         private void create_scores_config_file_Load(object sender, EventArgs e)
         {
+            unselected_features.AddRange(init_unselected_features);
+
             UpdateListBoxFromList(unselected_1_listBox, unselected_features);
             UpdateListBoxFromList(unselected_2_listBox, unselected_features);
             UpdateListBoxFromList(unselected_3_listBox, unselected_features);
@@ -500,9 +504,9 @@ namespace mobile_de
 
         }
 
-        private void budget_clean_button_Click(object sender, EventArgs e)
+        private void budget_clear_button_Click(object sender, EventArgs e)
         {
-
+            budget_textBox.Text = String.Empty;
         }
 
 
@@ -1314,6 +1318,23 @@ namespace mobile_de
 
 
         //save
+        private string get_selected_features_list(ListBox listBox_from)
+        {
+            string selectedFeatures = String.Empty;
+            foreach (string li in listBox_from.Items)
+            {
+                selectedFeatures += $"{Environment.NewLine}            \"{li}\",";
+            }
+
+            if (selectedFeatures.Length > 0)
+            {
+                selectedFeatures = selectedFeatures.TrimEnd(',');
+                selectedFeatures += $"{Environment.NewLine}        ";
+            }
+
+            return selectedFeatures;
+        }
+
         private void save_scores_config_file_button_Click(object sender, EventArgs e)
         {
             Boolean wrong_data = validate_budget();
@@ -1323,7 +1344,22 @@ namespace mobile_de
                 return;
             }
 
-            string scores_config = "";
+            string scores_config = ""
++ $"{{"
++ $"{Environment.NewLine}    \"Бюджет\": {budget_textBox.Text},"
++ $"{Environment.NewLine}    \"Оценки\": {{"
++ $"{Environment.NewLine}        \"1\": [{get_selected_features_list(selected_1_listBox)}],"
++ $"{Environment.NewLine}        \"2\": [{get_selected_features_list(selected_2_listBox)}],"
++ $"{Environment.NewLine}        \"3\": [{get_selected_features_list(selected_3_listBox)}],"
++ $"{Environment.NewLine}        \"4\": [{get_selected_features_list(selected_4_listBox)}],"
++ $"{Environment.NewLine}        \"5\": [{get_selected_features_list(selected_5_listBox)}],"
++ $"{Environment.NewLine}        \"6\": [{get_selected_features_list(selected_6_listBox)}],"
++ $"{Environment.NewLine}        \"7\": [{get_selected_features_list(selected_7_listBox)}],"
++ $"{Environment.NewLine}        \"8\": [{get_selected_features_list(selected_8_listBox)}],"
++ $"{Environment.NewLine}        \"9\": [{get_selected_features_list(selected_9_listBox)}],"
++ $"{Environment.NewLine}        \"10\": [{get_selected_features_list(selected_10_listBox)}]"
++ $"{Environment.NewLine}    }}"
++ $"{Environment.NewLine}}}";
 
             SaveFileDialog saveFileDialog = new SaveFileDialog();
             saveFileDialog.Filter = "JSON file (*.json)|*.json";
@@ -1343,6 +1379,44 @@ namespace mobile_de
             if (confirmResult == DialogResult.Yes)
             {
                 budget_textBox.Text = String.Empty;
+
+
+                unselected_features.Clear();
+                unselected_features.AddRange(init_unselected_features);
+                UpdateListBoxFromList(unselected_1_listBox, unselected_features);
+                UpdateListBoxFromList(unselected_2_listBox, unselected_features);
+                UpdateListBoxFromList(unselected_3_listBox, unselected_features);
+                UpdateListBoxFromList(unselected_4_listBox, unselected_features);
+                UpdateListBoxFromList(unselected_5_listBox, unselected_features);
+                UpdateListBoxFromList(unselected_6_listBox, unselected_features);
+                UpdateListBoxFromList(unselected_7_listBox, unselected_features);
+                UpdateListBoxFromList(unselected_8_listBox, unselected_features);
+                UpdateListBoxFromList(unselected_9_listBox, unselected_features);
+                UpdateListBoxFromList(unselected_10_listBox, unselected_features);
+
+                selected_1_features.Clear();
+                selected_2_features.Clear();
+                selected_3_features.Clear();
+                selected_4_features.Clear();
+                selected_5_features.Clear();
+                selected_6_features.Clear();
+                selected_7_features.Clear();
+                selected_8_features.Clear();
+                selected_9_features.Clear();
+                selected_10_features.Clear();
+
+                selected_1_listBox.Items.Clear();
+                selected_2_listBox.Items.Clear();
+                selected_3_listBox.Items.Clear();
+                selected_4_listBox.Items.Clear();
+                selected_5_listBox.Items.Clear();
+                selected_6_listBox.Items.Clear();
+                selected_7_listBox.Items.Clear();
+                selected_8_listBox.Items.Clear();
+                selected_9_listBox.Items.Clear();
+                selected_10_listBox.Items.Clear();
+
+                SetButtonsEditable();
             }
             else
             {
