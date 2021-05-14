@@ -2005,7 +2005,12 @@ namespace mobile_de
         //search_cars
         private void search_cars_button_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            search_cars search_cars_form = new search_cars();
+            search_cars_form.StartPosition = FormStartPosition.Manual;
+            search_cars_form.Location = this.Location;
+            search_cars_form.Size = this.Size;
+            search_cars_form.ShowDialog();
         }
     }
 }

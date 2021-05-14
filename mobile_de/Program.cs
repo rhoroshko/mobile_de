@@ -16,7 +16,7 @@ namespace mobile_de
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new create_scores_config_file());
+            Application.Run(new welcome());
         }
     }
 }
