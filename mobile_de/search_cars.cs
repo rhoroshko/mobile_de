@@ -44,7 +44,7 @@ namespace mobile_de
 
         private void search_config_listBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            SetButtonsEditable();
         }
 
         private void search_config_add_button_Click(object sender, EventArgs e)

@@ -6,6 +6,7 @@ import time
 import typing
 from datetime import timedelta
 from enum import Enum
+import os
 
 import bs4
 import numpy as np
@@ -306,12 +307,18 @@ def move_columns_to_position(df, columns, position):
 
 
 def scrape_data(filters_file, output_file):
+
+    filters_file_name = os.path.basename(filters_file).ljust(50)
+
     t = time.perf_counter()
 
     filters_url = "https://www.mobile.de/ru/расширенный-поиск/новое/vhc:car/pg:dspcar"
 
+    print(f"{filters_file_name} Starting browser")
+
     options = webdriver.ChromeOptions()
     options.add_experimental_option("detach", True)
+    options.add_argument("--disable-gpu")
     driver = webdriver.Chrome("./scripts/chromedriver", chrome_options=options)
 
     driver.get(filters_url)
@@ -330,17 +337,20 @@ def scrape_data(filters_file, output_file):
         driver.execute_script("arguments[0].click();", collapse_button)
 
     # apply filters
+    print(f"{filters_file_name} Applying filters")
     with open(filters_file, encoding="utf-8") as f:
         filters = json.load(f)
     apply_filters(driver, filters, filters_page_soup)
 
     # click search button
+    print(f"{filters_file_name} Clicking search button")
     search_button_soup = filters_page_soup.find("input",
                                                 class_="btn btn--orange btn--s u-pull-right js-show-results js-track-event")
     search_button_xpath = xpath_soup(search_button_soup)
     WebDriverWait(driver, DELAY).until(ec.element_to_be_clickable((By.XPATH, search_button_xpath))).click()
 
     # change currency to Euro
+    print(f"{filters_file_name} Changing currency to Euro")
     time.sleep(TIME_SLEEP)
     currency_dropdown = Select(
         WebDriverWait(driver, DELAY).until(ec.presence_of_element_located((By.ID, "currencies"))))
@@ -350,6 +360,7 @@ def scrape_data(filters_file, output_file):
     search_page_soup = BeautifulSoup(driver.page_source, "lxml")
 
     # set number of results per page
+    print(f"{filters_file_name} Set number of results per page: {CARS_PER_PAGE}")
     cars_per_page_soup = search_page_soup.find("a", class_="pagination-number btn btn--muted btn--s",
                                                string=CARS_PER_PAGE)
     cars_per_page_xpath = xpath_soup(cars_per_page_soup)
@@ -376,10 +387,10 @@ def scrape_data(filters_file, output_file):
                 limit_soup = BeautifulSoup(driver.page_source, "lxml")
                 limit = limit_soup.find(string="Измените критерии поиска или начните новый.")
                 if limit:
-                    print("Looks like you're reached the limit")
+                    print(f"{filters_file_name} Looks like you're reached the limit")
                     break
                 else:
-                    print("Issue with serch page")
+                    print(f"{filters_file_name} Issue with search page")
                     break
 
         search_page_soup = BeautifulSoup(driver.page_source, "lxml")
@@ -427,11 +438,14 @@ def scrape_data(filters_file, output_file):
             car_navigation = car_page_soup.find("div", class_=car_navigation_class)
             car_navigation_info = car_navigation.find("div")
             car_navigation_item = None
+            car_navigation_item_number = None
+            car_navigation_item_number_from = None
             if car_navigation_info:
                 car_navigation_item = car_navigation_info.get_text()
+                car_navigation_item_number = str(car_navigation_item.split("/")[0]).strip().rjust(12)
+                car_navigation_item_number_from = str(car_navigation_item.split("/")[1]).strip().rjust(6)
 
-            print(
-                f"Processing car {str(total_cars).rjust(4)} / {total_cars_found}: {str(car_number_on_page).rjust(2)} on page {str(page_number).rjust(3)} || item: {str(car_navigation_item).rjust(12)} page {str(page_number_actual).rjust(3)}")
+            print(f"{filters_file_name} Processing car: {car_navigation_item_number}/{car_navigation_item_number_from} page {str(page_number_actual).rjust(3)}")
 
             car_info_list.append(get_car_info(driver))
 
@@ -439,10 +453,10 @@ def scrape_data(filters_file, output_file):
                                                       class_="gicon-next-s icon--xs icon--grey-80 u-no-margin-right")
             # if car_number_on_page >= CARS_PER_PAGE or not next_car_button_soup:
             if not next_car_button_soup:
-                print(f"Cars processed on page {page_number}: {car_number_on_page}")
+                print(f"{filters_file_name} Cars processed on page {page_number}: {car_number_on_page}")
                 elapsed_time_seconds = time.perf_counter() - t
                 elapsed_time_formatted = str(timedelta(seconds=elapsed_time_seconds))
-                print(f"Elapsed time: {elapsed_time_formatted}")
+                print(f"{filters_file_name} Elapsed time: {elapsed_time_formatted}")
 
                 time.sleep(TIME_SLEEP)
 
@@ -465,7 +479,7 @@ def scrape_data(filters_file, output_file):
 
         # read same page if no navigation info
         if car_navigation_info:
-            print("Going to next page")
+            print(f"{filters_file_name} Going to next page")
             try:
                 WebDriverWait(driver, DELAY).until(ec.url_changes(current_url))
             except TimeoutException:
@@ -493,12 +507,12 @@ def scrape_data(filters_file, output_file):
         page_number += 1
 
     driver.close()
-    print(f"Total pages processed: {page_number}")
-    print(f"Total cars processed: {total_cars}")
+    print(f"{filters_file_name} Total pages processed: {page_number}")
+    print(f"{filters_file_name} Total cars processed: {total_cars}")
 
     car_info_list_unique = list({v["url"]: v for v in car_info_list}.values())
 
-    print(f"Total unique cars processed: {len(car_info_list_unique)}")
+    print(f"{filters_file_name} Total unique cars processed: {len(car_info_list_unique)}")
     df = pd.DataFrame(car_info_list_unique)
     df = df.fillna(False)
     df.loc[df["Цена нетто"] == False, ["Цена нетто"]] = np.nan
@@ -509,7 +523,7 @@ def scrape_data(filters_file, output_file):
     total_elapsed_time_seconds = time.perf_counter() - t
     total_elapsed_time_formatted = str(timedelta(seconds=total_elapsed_time_seconds))
 
-    print(f"Total elapsed time: {total_elapsed_time_formatted}")
+    print(f"{filters_file_name} Total elapsed time: {total_elapsed_time_formatted}")
 
     return df
 
@@ -595,13 +609,18 @@ def set_scores(input_file, scores_file, output_file):
 
 
 def main(filters_files: list, output_file: str, scores_file: str, mode):
+    t = time.perf_counter()
 
-    df = pd.DataFrame()
     pool = multiprocessing.Pool(4)
     func = partial(scrape_data, output_file=None)
     df = pd.concat(pool.map(func, filters_files))
     pool.close()
     pool.join()
+
+    total_elapsed_time_seconds = time.perf_counter() - t
+    total_elapsed_time_formatted = str(timedelta(seconds=total_elapsed_time_seconds))
+
+    print(f"All cars search took: {total_elapsed_time_formatted}")
 
     df = df.fillna(False)
     df.loc[df["Цена нетто"] == False, ["Цена нетто"]] = np.nan
@@ -622,22 +641,3 @@ if __name__ == "__main__":
     filters_files_list = args.filters_files_string.split("*")
 
     main(filters_files_list, args.output_file, args.scores_file, args.mode)
-
-
-    # scrape_data("test_filters.json", "test_output.csv")
-    # set_expenses("test_output.csv", "test_output.csv")
-    # set_scores("test_output.csv", "score.json", "test_output.csv")
-
-    # scrape_data("filters_no_seat_skoda.json", "output_no_seat_skoda.csv")
-    # scrape_data("filters_no_seat_vw.json",    "output_no_seat_vw.csv")
-    #
-    # df1 = pd.read_csv("output_no_seat_skoda.csv", encoding="utf-8")
-    # df2 = pd.read_csv("output_no_seat_vw.csv", encoding="utf-8")
-    # union = pd.concat([df1, df2], ignore_index=True)
-    # union = union.fillna(False)
-    # union.loc[union["Цена нетто"] == False, ["Цена нетто"]] = np.nan
-    # union.to_csv("output_no_seat.csv", index=False, encoding="utf-8")
-    #
-    # set_expenses("output_no_seat.csv", "output_no_seat.csv")
-    # set_scores("output_no_seat.csv", "score.json", "output_no_seat.csv")
-    #
