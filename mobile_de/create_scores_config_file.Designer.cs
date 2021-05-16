@@ -38,8 +38,8 @@
             this.score_config_main_panel = new System.Windows.Forms.Panel();
             this.score_10_groupBox = new System.Windows.Forms.GroupBox();
             this.score_10_tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.unselected_10_listBox = new System.Windows.Forms.ListBox();
-            this.selected_10_listBox = new System.Windows.Forms.ListBox();
+            this.unselected_10_listBox = new mobile_de.ListBoxWithPlaceholderText();
+            this.selected_10_listBox = new mobile_de.ListBoxWithPlaceholderText();
             this.unselected_10_filter_textBox = new System.Windows.Forms.TextBox();
             this.selected_10_filter_textBox = new System.Windows.Forms.TextBox();
             this.score_10_panel = new System.Windows.Forms.Panel();
@@ -49,8 +49,8 @@
             this.select_10_button = new System.Windows.Forms.Button();
             this.score_9_groupBox = new System.Windows.Forms.GroupBox();
             this.score_9_tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.unselected_9_listBox = new System.Windows.Forms.ListBox();
-            this.selected_9_listBox = new System.Windows.Forms.ListBox();
+            this.unselected_9_listBox = new mobile_de.ListBoxWithPlaceholderText();
+            this.selected_9_listBox = new mobile_de.ListBoxWithPlaceholderText();
             this.unselected_9_filter_textBox = new System.Windows.Forms.TextBox();
             this.selected_9_filter_textBox = new System.Windows.Forms.TextBox();
             this.score_9_panel = new System.Windows.Forms.Panel();
@@ -60,8 +60,8 @@
             this.select_9_button = new System.Windows.Forms.Button();
             this.score_8_groupBox = new System.Windows.Forms.GroupBox();
             this.score_8_tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.unselected_8_listBox = new System.Windows.Forms.ListBox();
-            this.selected_8_listBox = new System.Windows.Forms.ListBox();
+            this.unselected_8_listBox = new mobile_de.ListBoxWithPlaceholderText();
+            this.selected_8_listBox = new mobile_de.ListBoxWithPlaceholderText();
             this.unselected_8_filter_textBox = new System.Windows.Forms.TextBox();
             this.selected_8_filter_textBox = new System.Windows.Forms.TextBox();
             this.score_8_panel = new System.Windows.Forms.Panel();
@@ -71,8 +71,8 @@
             this.select_8_button = new System.Windows.Forms.Button();
             this.score_7_groupBox = new System.Windows.Forms.GroupBox();
             this.score_7_tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.unselected_7_listBox = new System.Windows.Forms.ListBox();
-            this.selected_7_listBox = new System.Windows.Forms.ListBox();
+            this.unselected_7_listBox = new mobile_de.ListBoxWithPlaceholderText();
+            this.selected_7_listBox = new mobile_de.ListBoxWithPlaceholderText();
             this.unselected_7_filter_textBox = new System.Windows.Forms.TextBox();
             this.selected_7_filter_textBox = new System.Windows.Forms.TextBox();
             this.score_7_panel = new System.Windows.Forms.Panel();
@@ -82,8 +82,8 @@
             this.select_7_button = new System.Windows.Forms.Button();
             this.score_6_groupBox = new System.Windows.Forms.GroupBox();
             this.score_6_tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.unselected_6_listBox = new System.Windows.Forms.ListBox();
-            this.selected_6_listBox = new System.Windows.Forms.ListBox();
+            this.unselected_6_listBox = new mobile_de.ListBoxWithPlaceholderText();
+            this.selected_6_listBox = new mobile_de.ListBoxWithPlaceholderText();
             this.unselected_6_filter_textBox = new System.Windows.Forms.TextBox();
             this.selected_6_filter_textBox = new System.Windows.Forms.TextBox();
             this.score_6_panel = new System.Windows.Forms.Panel();
@@ -93,8 +93,8 @@
             this.select_6_button = new System.Windows.Forms.Button();
             this.score_5_groupBox = new System.Windows.Forms.GroupBox();
             this.score_5_tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.unselected_5_listBox = new System.Windows.Forms.ListBox();
-            this.selected_5_listBox = new System.Windows.Forms.ListBox();
+            this.unselected_5_listBox = new mobile_de.ListBoxWithPlaceholderText();
+            this.selected_5_listBox = new mobile_de.ListBoxWithPlaceholderText();
             this.unselected_5_filter_textBox = new System.Windows.Forms.TextBox();
             this.selected_5_filter_textBox = new System.Windows.Forms.TextBox();
             this.score_5_panel = new System.Windows.Forms.Panel();
@@ -104,8 +104,8 @@
             this.select_5_button = new System.Windows.Forms.Button();
             this.score_4_groupBox = new System.Windows.Forms.GroupBox();
             this.score_4_tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.unselected_4_listBox = new System.Windows.Forms.ListBox();
-            this.selected_4_listBox = new System.Windows.Forms.ListBox();
+            this.unselected_4_listBox = new mobile_de.ListBoxWithPlaceholderText();
+            this.selected_4_listBox = new mobile_de.ListBoxWithPlaceholderText();
             this.unselected_4_filter_textBox = new System.Windows.Forms.TextBox();
             this.selected_4_filter_textBox = new System.Windows.Forms.TextBox();
             this.score_4_panel = new System.Windows.Forms.Panel();
@@ -115,8 +115,8 @@
             this.select_4_button = new System.Windows.Forms.Button();
             this.score_3_groupBox = new System.Windows.Forms.GroupBox();
             this.score_3_tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.unselected_3_listBox = new System.Windows.Forms.ListBox();
-            this.selected_3_listBox = new System.Windows.Forms.ListBox();
+            this.unselected_3_listBox = new mobile_de.ListBoxWithPlaceholderText();
+            this.selected_3_listBox = new mobile_de.ListBoxWithPlaceholderText();
             this.unselected_3_filter_textBox = new System.Windows.Forms.TextBox();
             this.selected_3_filter_textBox = new System.Windows.Forms.TextBox();
             this.score_3_panel = new System.Windows.Forms.Panel();
@@ -126,8 +126,8 @@
             this.select_3_button = new System.Windows.Forms.Button();
             this.score_2_groupBox = new System.Windows.Forms.GroupBox();
             this.score_2_tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.unselected_2_listBox = new System.Windows.Forms.ListBox();
-            this.selected_2_listBox = new System.Windows.Forms.ListBox();
+            this.unselected_2_listBox = new mobile_de.ListBoxWithPlaceholderText();
+            this.selected_2_listBox = new mobile_de.ListBoxWithPlaceholderText();
             this.unselected_2_filter_textBox = new System.Windows.Forms.TextBox();
             this.selected_2_filter_textBox = new System.Windows.Forms.TextBox();
             this.score_2_panel = new System.Windows.Forms.Panel();
@@ -140,8 +140,8 @@
             this.budget_clear_button = new System.Windows.Forms.Button();
             this.score_1_groupBox = new System.Windows.Forms.GroupBox();
             this.score_1_tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.unselected_1_listBox = new System.Windows.Forms.ListBox();
-            this.selected_1_listBox = new System.Windows.Forms.ListBox();
+            this.unselected_1_listBox = new mobile_de.ListBoxWithPlaceholderText();
+            this.selected_1_listBox = new mobile_de.ListBoxWithPlaceholderText();
             this.unselected_1_filter_textBox = new System.Windows.Forms.TextBox();
             this.selected_1_filter_textBox = new System.Windows.Forms.TextBox();
             this.score_1_panel = new System.Windows.Forms.Panel();
@@ -304,6 +304,7 @@
             this.unselected_10_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.unselected_10_listBox.EmptyText = "Нет свободных характеристик";
             this.unselected_10_listBox.FormattingEnabled = true;
             this.unselected_10_listBox.Location = new System.Drawing.Point(3, 28);
             this.unselected_10_listBox.Name = "unselected_10_listBox";
@@ -319,6 +320,7 @@
             this.selected_10_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.selected_10_listBox.EmptyText = "Выберите характеристики с оценкой 10";
             this.selected_10_listBox.FormattingEnabled = true;
             this.selected_10_listBox.Location = new System.Drawing.Point(421, 28);
             this.selected_10_listBox.Name = "selected_10_listBox";
@@ -456,6 +458,7 @@
             this.unselected_9_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.unselected_9_listBox.EmptyText = "Нет свободных характеристик";
             this.unselected_9_listBox.FormattingEnabled = true;
             this.unselected_9_listBox.Location = new System.Drawing.Point(3, 28);
             this.unselected_9_listBox.Name = "unselected_9_listBox";
@@ -471,6 +474,7 @@
             this.selected_9_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.selected_9_listBox.EmptyText = "Выберите характеристики с оценкой 9";
             this.selected_9_listBox.FormattingEnabled = true;
             this.selected_9_listBox.Location = new System.Drawing.Point(421, 28);
             this.selected_9_listBox.Name = "selected_9_listBox";
@@ -608,6 +612,7 @@
             this.unselected_8_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.unselected_8_listBox.EmptyText = "Нет свободных характеристик";
             this.unselected_8_listBox.FormattingEnabled = true;
             this.unselected_8_listBox.Location = new System.Drawing.Point(3, 28);
             this.unselected_8_listBox.Name = "unselected_8_listBox";
@@ -623,6 +628,7 @@
             this.selected_8_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.selected_8_listBox.EmptyText = "Выберите характеристики с оценкой 8";
             this.selected_8_listBox.FormattingEnabled = true;
             this.selected_8_listBox.Location = new System.Drawing.Point(421, 28);
             this.selected_8_listBox.Name = "selected_8_listBox";
@@ -760,6 +766,7 @@
             this.unselected_7_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.unselected_7_listBox.EmptyText = "Нет свободных характеристик";
             this.unselected_7_listBox.FormattingEnabled = true;
             this.unselected_7_listBox.Location = new System.Drawing.Point(3, 28);
             this.unselected_7_listBox.Name = "unselected_7_listBox";
@@ -775,6 +782,7 @@
             this.selected_7_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.selected_7_listBox.EmptyText = "Выберите характеристики с оценкой 7";
             this.selected_7_listBox.FormattingEnabled = true;
             this.selected_7_listBox.Location = new System.Drawing.Point(421, 28);
             this.selected_7_listBox.Name = "selected_7_listBox";
@@ -912,6 +920,7 @@
             this.unselected_6_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.unselected_6_listBox.EmptyText = "Нет свободных характеристик";
             this.unselected_6_listBox.FormattingEnabled = true;
             this.unselected_6_listBox.Location = new System.Drawing.Point(3, 28);
             this.unselected_6_listBox.Name = "unselected_6_listBox";
@@ -927,6 +936,7 @@
             this.selected_6_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.selected_6_listBox.EmptyText = "Выберите характеристики с оценкой 6";
             this.selected_6_listBox.FormattingEnabled = true;
             this.selected_6_listBox.Location = new System.Drawing.Point(421, 28);
             this.selected_6_listBox.Name = "selected_6_listBox";
@@ -1064,6 +1074,7 @@
             this.unselected_5_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.unselected_5_listBox.EmptyText = "Нет свободных характеристик";
             this.unselected_5_listBox.FormattingEnabled = true;
             this.unselected_5_listBox.Location = new System.Drawing.Point(3, 28);
             this.unselected_5_listBox.Name = "unselected_5_listBox";
@@ -1079,6 +1090,7 @@
             this.selected_5_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.selected_5_listBox.EmptyText = "Выберите характеристики с оценкой 5";
             this.selected_5_listBox.FormattingEnabled = true;
             this.selected_5_listBox.Location = new System.Drawing.Point(421, 28);
             this.selected_5_listBox.Name = "selected_5_listBox";
@@ -1216,6 +1228,7 @@
             this.unselected_4_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.unselected_4_listBox.EmptyText = "Нет свободных характеристик";
             this.unselected_4_listBox.FormattingEnabled = true;
             this.unselected_4_listBox.Location = new System.Drawing.Point(3, 28);
             this.unselected_4_listBox.Name = "unselected_4_listBox";
@@ -1231,6 +1244,7 @@
             this.selected_4_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.selected_4_listBox.EmptyText = "Выберите характеристики с оценкой 4";
             this.selected_4_listBox.FormattingEnabled = true;
             this.selected_4_listBox.Location = new System.Drawing.Point(421, 28);
             this.selected_4_listBox.Name = "selected_4_listBox";
@@ -1368,6 +1382,7 @@
             this.unselected_3_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.unselected_3_listBox.EmptyText = "Нет свободных характеристик";
             this.unselected_3_listBox.FormattingEnabled = true;
             this.unselected_3_listBox.Location = new System.Drawing.Point(3, 28);
             this.unselected_3_listBox.Name = "unselected_3_listBox";
@@ -1383,6 +1398,7 @@
             this.selected_3_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.selected_3_listBox.EmptyText = "Выберите характеристики с оценкой 3";
             this.selected_3_listBox.FormattingEnabled = true;
             this.selected_3_listBox.Location = new System.Drawing.Point(421, 28);
             this.selected_3_listBox.Name = "selected_3_listBox";
@@ -1520,6 +1536,7 @@
             this.unselected_2_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.unselected_2_listBox.EmptyText = "Нет свободных характеристик";
             this.unselected_2_listBox.FormattingEnabled = true;
             this.unselected_2_listBox.Location = new System.Drawing.Point(3, 28);
             this.unselected_2_listBox.Name = "unselected_2_listBox";
@@ -1535,6 +1552,7 @@
             this.selected_2_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.selected_2_listBox.EmptyText = "Выберите характеристики с оценкой 2";
             this.selected_2_listBox.FormattingEnabled = true;
             this.selected_2_listBox.Location = new System.Drawing.Point(421, 28);
             this.selected_2_listBox.Name = "selected_2_listBox";
@@ -1711,6 +1729,7 @@
             this.unselected_1_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.unselected_1_listBox.EmptyText = "Нет свободных характеристик";
             this.unselected_1_listBox.FormattingEnabled = true;
             this.unselected_1_listBox.Location = new System.Drawing.Point(3, 28);
             this.unselected_1_listBox.Name = "unselected_1_listBox";
@@ -1726,6 +1745,7 @@
             this.selected_1_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.selected_1_listBox.EmptyText = "Выберите характеристики с оценкой 1";
             this.selected_1_listBox.FormattingEnabled = true;
             this.selected_1_listBox.Location = new System.Drawing.Point(421, 28);
             this.selected_1_listBox.Name = "selected_1_listBox";
@@ -1893,8 +1913,8 @@
         private System.Windows.Forms.Panel score_config_main_panel;
         private System.Windows.Forms.GroupBox score_1_groupBox;
         private System.Windows.Forms.TableLayoutPanel score_1_tableLayoutPanel;
-        private System.Windows.Forms.ListBox unselected_1_listBox;
-        private System.Windows.Forms.ListBox selected_1_listBox;
+        private ListBoxWithPlaceholderText unselected_1_listBox;
+        private ListBoxWithPlaceholderText selected_1_listBox;
         private System.Windows.Forms.TextBox unselected_1_filter_textBox;
         private System.Windows.Forms.TextBox selected_1_filter_textBox;
         private System.Windows.Forms.Panel score_1_panel;
@@ -1907,8 +1927,8 @@
         private System.Windows.Forms.TextBox budget_textBox;
         private System.Windows.Forms.GroupBox score_2_groupBox;
         private System.Windows.Forms.TableLayoutPanel score_2_tableLayoutPanel;
-        private System.Windows.Forms.ListBox unselected_2_listBox;
-        private System.Windows.Forms.ListBox selected_2_listBox;
+        private ListBoxWithPlaceholderText unselected_2_listBox;
+        private ListBoxWithPlaceholderText selected_2_listBox;
         private System.Windows.Forms.TextBox unselected_2_filter_textBox;
         private System.Windows.Forms.TextBox selected_2_filter_textBox;
         private System.Windows.Forms.Panel score_2_panel;
@@ -1918,8 +1938,8 @@
         private System.Windows.Forms.Button select_2_button;
         private System.Windows.Forms.GroupBox score_6_groupBox;
         private System.Windows.Forms.TableLayoutPanel score_6_tableLayoutPanel;
-        private System.Windows.Forms.ListBox unselected_6_listBox;
-        private System.Windows.Forms.ListBox selected_6_listBox;
+        private ListBoxWithPlaceholderText unselected_6_listBox;
+        private ListBoxWithPlaceholderText selected_6_listBox;
         private System.Windows.Forms.TextBox unselected_6_filter_textBox;
         private System.Windows.Forms.TextBox selected_6_filter_textBox;
         private System.Windows.Forms.Panel score_6_panel;
@@ -1929,8 +1949,8 @@
         private System.Windows.Forms.Button select_6_button;
         private System.Windows.Forms.GroupBox score_5_groupBox;
         private System.Windows.Forms.TableLayoutPanel score_5_tableLayoutPanel;
-        private System.Windows.Forms.ListBox unselected_5_listBox;
-        private System.Windows.Forms.ListBox selected_5_listBox;
+        private ListBoxWithPlaceholderText unselected_5_listBox;
+        private ListBoxWithPlaceholderText selected_5_listBox;
         private System.Windows.Forms.TextBox unselected_5_filter_textBox;
         private System.Windows.Forms.TextBox selected_5_filter_textBox;
         private System.Windows.Forms.Panel score_5_panel;
@@ -1940,8 +1960,8 @@
         private System.Windows.Forms.Button select_5_button;
         private System.Windows.Forms.GroupBox score_4_groupBox;
         private System.Windows.Forms.TableLayoutPanel score_4_tableLayoutPanel;
-        private System.Windows.Forms.ListBox unselected_4_listBox;
-        private System.Windows.Forms.ListBox selected_4_listBox;
+        private ListBoxWithPlaceholderText unselected_4_listBox;
+        private ListBoxWithPlaceholderText selected_4_listBox;
         private System.Windows.Forms.TextBox unselected_4_filter_textBox;
         private System.Windows.Forms.TextBox selected_4_filter_textBox;
         private System.Windows.Forms.Panel score_4_panel;
@@ -1951,7 +1971,7 @@
         private System.Windows.Forms.Button select_4_button;
         private System.Windows.Forms.GroupBox score_3_groupBox;
         private System.Windows.Forms.TableLayoutPanel score_3_tableLayoutPanel;
-        private System.Windows.Forms.ListBox unselected_3_listBox;
+        private ListBoxWithPlaceholderText unselected_3_listBox;
         private System.Windows.Forms.TextBox unselected_3_filter_textBox;
         private System.Windows.Forms.TextBox selected_3_filter_textBox;
         private System.Windows.Forms.Panel score_3_panel;
@@ -1959,11 +1979,11 @@
         private System.Windows.Forms.Button unselect_3_button;
         private System.Windows.Forms.Button select_all_3_button;
         private System.Windows.Forms.Button select_3_button;
-        private System.Windows.Forms.ListBox selected_3_listBox;
+        private ListBoxWithPlaceholderText selected_3_listBox;
         private System.Windows.Forms.GroupBox score_7_groupBox;
         private System.Windows.Forms.TableLayoutPanel score_7_tableLayoutPanel;
-        private System.Windows.Forms.ListBox unselected_7_listBox;
-        private System.Windows.Forms.ListBox selected_7_listBox;
+        private ListBoxWithPlaceholderText unselected_7_listBox;
+        private ListBoxWithPlaceholderText selected_7_listBox;
         private System.Windows.Forms.TextBox unselected_7_filter_textBox;
         private System.Windows.Forms.TextBox selected_7_filter_textBox;
         private System.Windows.Forms.Panel score_7_panel;
@@ -1973,8 +1993,8 @@
         private System.Windows.Forms.Button select_7_button;
         private System.Windows.Forms.GroupBox score_10_groupBox;
         private System.Windows.Forms.TableLayoutPanel score_10_tableLayoutPanel;
-        private System.Windows.Forms.ListBox unselected_10_listBox;
-        private System.Windows.Forms.ListBox selected_10_listBox;
+        private ListBoxWithPlaceholderText unselected_10_listBox;
+        private ListBoxWithPlaceholderText selected_10_listBox;
         private System.Windows.Forms.TextBox unselected_10_filter_textBox;
         private System.Windows.Forms.TextBox selected_10_filter_textBox;
         private System.Windows.Forms.Panel score_10_panel;
@@ -1984,8 +2004,8 @@
         private System.Windows.Forms.Button select_10_button;
         private System.Windows.Forms.GroupBox score_9_groupBox;
         private System.Windows.Forms.TableLayoutPanel score_9_tableLayoutPanel;
-        private System.Windows.Forms.ListBox unselected_9_listBox;
-        private System.Windows.Forms.ListBox selected_9_listBox;
+        private ListBoxWithPlaceholderText unselected_9_listBox;
+        private ListBoxWithPlaceholderText selected_9_listBox;
         private System.Windows.Forms.TextBox unselected_9_filter_textBox;
         private System.Windows.Forms.TextBox selected_9_filter_textBox;
         private System.Windows.Forms.Panel score_9_panel;
@@ -1995,8 +2015,8 @@
         private System.Windows.Forms.Button select_9_button;
         private System.Windows.Forms.GroupBox score_8_groupBox;
         private System.Windows.Forms.TableLayoutPanel score_8_tableLayoutPanel;
-        private System.Windows.Forms.ListBox unselected_8_listBox;
-        private System.Windows.Forms.ListBox selected_8_listBox;
+        private ListBoxWithPlaceholderText unselected_8_listBox;
+        private ListBoxWithPlaceholderText selected_8_listBox;
         private System.Windows.Forms.TextBox unselected_8_filter_textBox;
         private System.Windows.Forms.TextBox selected_8_filter_textBox;
         private System.Windows.Forms.Panel score_8_panel;

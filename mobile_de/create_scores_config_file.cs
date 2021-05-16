@@ -18,6 +18,7 @@ namespace mobile_de
         {
             InitializeComponent();
             SetButtonsEditable();
+            SetAllListBoxesBackgoundColor();
         }
 
         List<string> init_unselected_features = System.IO.File.ReadLines(Path.Combine(Environment.CurrentDirectory, @".\data\features.txt")).ToList();
@@ -80,6 +81,44 @@ namespace mobile_de
             UpdateListBoxFromList(unselected_10_listBox, unselected_features);
 
             SetButtonsEditable();
+            SetAllListBoxesBackgoundColor();
+        }
+
+        private void SetListBoxBackgoundColor(ListBoxWithPlaceholderText listBox)
+        {
+            if (listBox.Items.Count == 0)
+            {
+                listBox.BackColor = System.Drawing.SystemColors.Control;
+            }
+            else
+            {
+                listBox.BackColor = System.Drawing.SystemColors.Window;
+            }
+        }
+
+        private void SetAllListBoxesBackgoundColor()
+        {
+            SetListBoxBackgoundColor(selected_1_listBox);
+            SetListBoxBackgoundColor(selected_2_listBox);
+            SetListBoxBackgoundColor(selected_3_listBox);
+            SetListBoxBackgoundColor(selected_4_listBox);
+            SetListBoxBackgoundColor(selected_5_listBox);
+            SetListBoxBackgoundColor(selected_6_listBox);
+            SetListBoxBackgoundColor(selected_7_listBox);
+            SetListBoxBackgoundColor(selected_8_listBox);
+            SetListBoxBackgoundColor(selected_9_listBox);
+            SetListBoxBackgoundColor(selected_10_listBox);
+
+            SetListBoxBackgoundColor(unselected_1_listBox);
+            SetListBoxBackgoundColor(unselected_2_listBox);
+            SetListBoxBackgoundColor(unselected_3_listBox);
+            SetListBoxBackgoundColor(unselected_4_listBox);
+            SetListBoxBackgoundColor(unselected_5_listBox);
+            SetListBoxBackgoundColor(unselected_6_listBox);
+            SetListBoxBackgoundColor(unselected_7_listBox);
+            SetListBoxBackgoundColor(unselected_8_listBox);
+            SetListBoxBackgoundColor(unselected_9_listBox);
+            SetListBoxBackgoundColor(unselected_10_listBox);
         }
 
         // Enable and disable buttons.
@@ -263,6 +302,7 @@ namespace mobile_de
             UpdateListBoxFromList(unselected_9_listBox, unselected_features);
             UpdateListBoxFromList(unselected_10_listBox, unselected_features);
             SetButtonsEditable();
+            SetAllListBoxesBackgoundColor();
         }
 
         // Move all items from one ListBox to another.
@@ -462,6 +502,7 @@ namespace mobile_de
             UpdateListBoxFromList(unselected_9_listBox, unselected_features);
             UpdateListBoxFromList(unselected_10_listBox, unselected_features);
             SetButtonsEditable();
+            SetAllListBoxesBackgoundColor();
         }
 
         //Update ListBox from list object
