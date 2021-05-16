@@ -35,6 +35,7 @@ namespace mobile_de
         List<string> selected_9_features = new List<string>();
         List<string> selected_10_features = new List<string>();
 
+        //Logic from https://www.fluxbytes.com/csharp/set-placeholder-text-for-textbox-cue-text/
         private const int EM_SETCUEBANNER = 0x1501;
         [DllImport("user32.dll", CharSet = CharSet.Auto)]
         private static extern Int32 SendMessage(IntPtr hWnd, int msg, int wParam, [MarshalAs(UnmanagedType.LPWStr)]string lParam);
@@ -169,6 +170,7 @@ namespace mobile_de
             unselect_all_10_button.Enabled = (selected_10_listBox.Items.Count > 0);
         }
 
+        //Logic from http://csharphelper.com/blog/2015/11/move-items-between-two-listboxes-in-c/
         // Move selected items from one ListBox to another.
         private void MoveSelectedItems(ListBox listBox_from, ListBox listBox_to)
         {

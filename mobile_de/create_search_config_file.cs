@@ -24,6 +24,7 @@ namespace mobile_de
         string make_model_version_eliminate_make_2;
         string make_model_version_eliminate_make_3;
 
+        //Logic from https://www.fluxbytes.com/csharp/set-placeholder-text-for-textbox-cue-text/
         private const int EM_SETCUEBANNER = 0x1501;
         [DllImport("user32.dll", CharSet = CharSet.Auto)]
         private static extern Int32 SendMessage(IntPtr hWnd, int msg, int wParam, [MarshalAs(UnmanagedType.LPWStr)]string lParam);
