@@ -19,7 +19,7 @@ namespace mobile_de
 
         private void welcome_Load(object sender, EventArgs e)
         {
-
+            this.ActiveControl = search_cars_button;
         }
 
         private void welcome_main_panel_Paint(object sender, PaintEventArgs e)

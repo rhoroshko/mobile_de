@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -33,8 +34,38 @@ namespace mobile_de
         List<string> selected_9_features = new List<string>();
         List<string> selected_10_features = new List<string>();
 
+        private const int EM_SETCUEBANNER = 0x1501;
+        [DllImport("user32.dll", CharSet = CharSet.Auto)]
+        private static extern Int32 SendMessage(IntPtr hWnd, int msg, int wParam, [MarshalAs(UnmanagedType.LPWStr)]string lParam);
+
         private void create_scores_config_file_Load(object sender, EventArgs e)
         {
+            SendMessage(budget_textBox.Handle, EM_SETCUEBANNER, 0, "Введите Ваш бюджет");
+
+            SendMessage(unselected_1_filter_textBox.Handle, EM_SETCUEBANNER, 0, "Введите фильтр характеристики");
+            SendMessage(unselected_2_filter_textBox.Handle, EM_SETCUEBANNER, 0, "Введите фильтр характеристики");
+            SendMessage(unselected_3_filter_textBox.Handle, EM_SETCUEBANNER, 0, "Введите фильтр характеристики");
+            SendMessage(unselected_4_filter_textBox.Handle, EM_SETCUEBANNER, 0, "Введите фильтр характеристики");
+            SendMessage(unselected_5_filter_textBox.Handle, EM_SETCUEBANNER, 0, "Введите фильтр характеристики");
+            SendMessage(unselected_6_filter_textBox.Handle, EM_SETCUEBANNER, 0, "Введите фильтр характеристики");
+            SendMessage(unselected_7_filter_textBox.Handle, EM_SETCUEBANNER, 0, "Введите фильтр характеристики");
+            SendMessage(unselected_8_filter_textBox.Handle, EM_SETCUEBANNER, 0, "Введите фильтр характеристики");
+            SendMessage(unselected_9_filter_textBox.Handle, EM_SETCUEBANNER, 0, "Введите фильтр характеристики");
+            SendMessage(unselected_10_filter_textBox.Handle, EM_SETCUEBANNER, 0, "Введите фильтр характеристики");
+
+            SendMessage(selected_1_filter_textBox.Handle, EM_SETCUEBANNER, 0, "Введите фильтр характеристики");
+            SendMessage(selected_2_filter_textBox.Handle, EM_SETCUEBANNER, 0, "Введите фильтр характеристики");
+            SendMessage(selected_3_filter_textBox.Handle, EM_SETCUEBANNER, 0, "Введите фильтр характеристики");
+            SendMessage(selected_4_filter_textBox.Handle, EM_SETCUEBANNER, 0, "Введите фильтр характеристики");
+            SendMessage(selected_5_filter_textBox.Handle, EM_SETCUEBANNER, 0, "Введите фильтр характеристики");
+            SendMessage(selected_6_filter_textBox.Handle, EM_SETCUEBANNER, 0, "Введите фильтр характеристики");
+            SendMessage(selected_7_filter_textBox.Handle, EM_SETCUEBANNER, 0, "Введите фильтр характеристики");
+            SendMessage(selected_8_filter_textBox.Handle, EM_SETCUEBANNER, 0, "Введите фильтр характеристики");
+            SendMessage(selected_9_filter_textBox.Handle, EM_SETCUEBANNER, 0, "Введите фильтр характеристики");
+            SendMessage(selected_10_filter_textBox.Handle, EM_SETCUEBANNER, 0, "Введите фильтр характеристики");
+
+            this.ActiveControl = search_cars_button;
+
             unselected_features.AddRange(init_unselected_features);
 
             UpdateListBoxFromList(unselected_1_listBox, unselected_features);

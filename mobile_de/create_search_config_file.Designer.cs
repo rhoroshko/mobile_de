@@ -3908,6 +3908,7 @@
             this.MinimumSize = new System.Drawing.Size(850, 400);
             this.Name = "create_search_config_file";
             this.Text = "mobile.de Создать фильтр поиска";
+            this.Load += new System.EventHandler(this.create_search_config_file_Load);
             this.search_config_main_panel.ResumeLayout(false);
             this.vehicle_history_groupBox.ResumeLayout(false);
             this.tableLayoutPanel12.ResumeLayout(false);

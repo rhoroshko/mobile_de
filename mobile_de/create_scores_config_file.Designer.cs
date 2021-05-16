@@ -268,12 +268,12 @@
             this.score_10_groupBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.score_10_groupBox.Controls.Add(this.score_10_tableLayoutPanel);
             this.score_10_groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.score_10_groupBox.Location = new System.Drawing.Point(4, 1785);
+            this.score_10_groupBox.Location = new System.Drawing.Point(4, 66);
             this.score_10_groupBox.Name = "score_10_groupBox";
             this.score_10_groupBox.Size = new System.Drawing.Size(807, 185);
             this.score_10_groupBox.TabIndex = 17;
             this.score_10_groupBox.TabStop = false;
-            this.score_10_groupBox.Text = "10";
+            this.score_10_groupBox.Text = "Оценка 10";
             this.score_10_groupBox.Enter += new System.EventHandler(this.score_10_groupBox_Enter);
             // 
             // score_10_tableLayoutPanel
@@ -420,12 +420,12 @@
             this.score_9_groupBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.score_9_groupBox.Controls.Add(this.score_9_tableLayoutPanel);
             this.score_9_groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.score_9_groupBox.Location = new System.Drawing.Point(3, 1594);
+            this.score_9_groupBox.Location = new System.Drawing.Point(4, 257);
             this.score_9_groupBox.Name = "score_9_groupBox";
             this.score_9_groupBox.Size = new System.Drawing.Size(807, 185);
             this.score_9_groupBox.TabIndex = 16;
             this.score_9_groupBox.TabStop = false;
-            this.score_9_groupBox.Text = "9";
+            this.score_9_groupBox.Text = "Оценка 9";
             this.score_9_groupBox.Enter += new System.EventHandler(this.score_9_groupBox_Enter);
             // 
             // score_9_tableLayoutPanel
@@ -572,12 +572,12 @@
             this.score_8_groupBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.score_8_groupBox.Controls.Add(this.score_8_tableLayoutPanel);
             this.score_8_groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.score_8_groupBox.Location = new System.Drawing.Point(4, 1403);
+            this.score_8_groupBox.Location = new System.Drawing.Point(4, 448);
             this.score_8_groupBox.Name = "score_8_groupBox";
             this.score_8_groupBox.Size = new System.Drawing.Size(807, 185);
             this.score_8_groupBox.TabIndex = 15;
             this.score_8_groupBox.TabStop = false;
-            this.score_8_groupBox.Text = "8";
+            this.score_8_groupBox.Text = "Оценка 8";
             this.score_8_groupBox.Enter += new System.EventHandler(this.score_8_groupBox_Enter);
             // 
             // score_8_tableLayoutPanel
@@ -724,12 +724,12 @@
             this.score_7_groupBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.score_7_groupBox.Controls.Add(this.score_7_tableLayoutPanel);
             this.score_7_groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.score_7_groupBox.Location = new System.Drawing.Point(4, 1212);
+            this.score_7_groupBox.Location = new System.Drawing.Point(4, 639);
             this.score_7_groupBox.Name = "score_7_groupBox";
             this.score_7_groupBox.Size = new System.Drawing.Size(807, 185);
             this.score_7_groupBox.TabIndex = 14;
             this.score_7_groupBox.TabStop = false;
-            this.score_7_groupBox.Text = "7";
+            this.score_7_groupBox.Text = "Оценка 7";
             this.score_7_groupBox.Enter += new System.EventHandler(this.score_7_groupBox_Enter);
             // 
             // score_7_tableLayoutPanel
@@ -876,12 +876,12 @@
             this.score_6_groupBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.score_6_groupBox.Controls.Add(this.score_6_tableLayoutPanel);
             this.score_6_groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.score_6_groupBox.Location = new System.Drawing.Point(4, 1021);
+            this.score_6_groupBox.Location = new System.Drawing.Point(4, 830);
             this.score_6_groupBox.Name = "score_6_groupBox";
             this.score_6_groupBox.Size = new System.Drawing.Size(807, 185);
             this.score_6_groupBox.TabIndex = 13;
             this.score_6_groupBox.TabStop = false;
-            this.score_6_groupBox.Text = "6";
+            this.score_6_groupBox.Text = "Оценка 6";
             this.score_6_groupBox.Enter += new System.EventHandler(this.score_6_groupBox_Enter);
             // 
             // score_6_tableLayoutPanel
@@ -1028,12 +1028,12 @@
             this.score_5_groupBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.score_5_groupBox.Controls.Add(this.score_5_tableLayoutPanel);
             this.score_5_groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.score_5_groupBox.Location = new System.Drawing.Point(4, 830);
+            this.score_5_groupBox.Location = new System.Drawing.Point(4, 1021);
             this.score_5_groupBox.Name = "score_5_groupBox";
             this.score_5_groupBox.Size = new System.Drawing.Size(807, 185);
             this.score_5_groupBox.TabIndex = 12;
             this.score_5_groupBox.TabStop = false;
-            this.score_5_groupBox.Text = "5";
+            this.score_5_groupBox.Text = "Оценка 5";
             this.score_5_groupBox.Enter += new System.EventHandler(this.score_5_groupBox_Enter);
             // 
             // score_5_tableLayoutPanel
@@ -1180,12 +1180,12 @@
             this.score_4_groupBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.score_4_groupBox.Controls.Add(this.score_4_tableLayoutPanel);
             this.score_4_groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.score_4_groupBox.Location = new System.Drawing.Point(3, 639);
+            this.score_4_groupBox.Location = new System.Drawing.Point(4, 1212);
             this.score_4_groupBox.Name = "score_4_groupBox";
             this.score_4_groupBox.Size = new System.Drawing.Size(807, 185);
             this.score_4_groupBox.TabIndex = 11;
             this.score_4_groupBox.TabStop = false;
-            this.score_4_groupBox.Text = "4";
+            this.score_4_groupBox.Text = "Оценка 4";
             this.score_4_groupBox.Enter += new System.EventHandler(this.score_4_groupBox_Enter);
             // 
             // score_4_tableLayoutPanel
@@ -1332,12 +1332,12 @@
             this.score_3_groupBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.score_3_groupBox.Controls.Add(this.score_3_tableLayoutPanel);
             this.score_3_groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.score_3_groupBox.Location = new System.Drawing.Point(4, 448);
+            this.score_3_groupBox.Location = new System.Drawing.Point(4, 1403);
             this.score_3_groupBox.Name = "score_3_groupBox";
             this.score_3_groupBox.Size = new System.Drawing.Size(807, 185);
             this.score_3_groupBox.TabIndex = 10;
             this.score_3_groupBox.TabStop = false;
-            this.score_3_groupBox.Text = "3";
+            this.score_3_groupBox.Text = "Оценка 3";
             this.score_3_groupBox.Enter += new System.EventHandler(this.score_3_groupBox_Enter);
             // 
             // score_3_tableLayoutPanel
@@ -1484,12 +1484,12 @@
             this.score_2_groupBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.score_2_groupBox.Controls.Add(this.score_2_tableLayoutPanel);
             this.score_2_groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.score_2_groupBox.Location = new System.Drawing.Point(4, 257);
+            this.score_2_groupBox.Location = new System.Drawing.Point(4, 1594);
             this.score_2_groupBox.Name = "score_2_groupBox";
             this.score_2_groupBox.Size = new System.Drawing.Size(807, 185);
             this.score_2_groupBox.TabIndex = 9;
             this.score_2_groupBox.TabStop = false;
-            this.score_2_groupBox.Text = "2";
+            this.score_2_groupBox.Text = "Оценка 2";
             this.score_2_groupBox.Enter += new System.EventHandler(this.score_2_groupBox_Enter);
             // 
             // score_2_tableLayoutPanel
@@ -1650,7 +1650,7 @@
             this.budget_textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.budget_textBox.Location = new System.Drawing.Point(8, 26);
             this.budget_textBox.Name = "budget_textBox";
-            this.budget_textBox.Size = new System.Drawing.Size(100, 20);
+            this.budget_textBox.Size = new System.Drawing.Size(120, 20);
             this.budget_textBox.TabIndex = 1;
             this.toolTip1.SetToolTip(this.budget_textBox, "Значение бюджета должно быть между 1000 и 100000.");
             this.budget_textBox.TextChanged += new System.EventHandler(this.budget_textBox_TextChanged);
@@ -1675,12 +1675,12 @@
             this.score_1_groupBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.score_1_groupBox.Controls.Add(this.score_1_tableLayoutPanel);
             this.score_1_groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.score_1_groupBox.Location = new System.Drawing.Point(4, 66);
+            this.score_1_groupBox.Location = new System.Drawing.Point(4, 1785);
             this.score_1_groupBox.Name = "score_1_groupBox";
             this.score_1_groupBox.Size = new System.Drawing.Size(807, 185);
             this.score_1_groupBox.TabIndex = 6;
             this.score_1_groupBox.TabStop = false;
-            this.score_1_groupBox.Text = "1";
+            this.score_1_groupBox.Text = "Оценка 1";
             this.score_1_groupBox.Enter += new System.EventHandler(this.score_1_groupBox_Enter);
             // 
             // score_1_tableLayoutPanel

@@ -26,6 +26,8 @@ namespace mobile_de
 
         private void search_cars_Load(object sender, EventArgs e)
         {
+            this.ActiveControl = search_cars_start_button;
+
             SetButtonsEditable();
         }
 
@@ -113,7 +115,7 @@ namespace mobile_de
             {
                 if (scores_config_listBox.Items.Count > 0)
                 {
-                    var confirmResult = MessageBox.Show($"Конфигурация оценек уже выбрана. Использовать новую,"
+                    var confirmResult = MessageBox.Show($"Конфигурация оценек уже выбрана. Использовать новую?"
                                                         , ""
                                                         , MessageBoxButtons.YesNoCancel);
                     if (confirmResult == DialogResult.Yes)

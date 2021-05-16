@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -23,6 +24,9 @@ namespace mobile_de
         string make_model_version_eliminate_make_2;
         string make_model_version_eliminate_make_3;
 
+        private const int EM_SETCUEBANNER = 0x1501;
+        [DllImport("user32.dll", CharSet = CharSet.Auto)]
+        private static extern Int32 SendMessage(IntPtr hWnd, int msg, int wParam, [MarshalAs(UnmanagedType.LPWStr)]string lParam);
 
         public create_search_config_file()
         {
@@ -46,7 +50,25 @@ namespace mobile_de
 
         public void create_search_config_file_Load(object sender, EventArgs e)
         {
+            SendMessage(vehicle_type_number_of_seats_from_textBox.Handle, EM_SETCUEBANNER, 0, "Не важно");
+            SendMessage(vehicle_type_number_of_seats_to_textBox.Handle, EM_SETCUEBANNER, 0, "Не важно");
 
+            SendMessage(vehicle_search_first_registration_year_from_textBox.Handle, EM_SETCUEBANNER, 0, "Не важно");
+            SendMessage(vehicle_search_first_registration_year_to_textBox.Handle, EM_SETCUEBANNER, 0, "Не важно");
+            SendMessage(vehicle_search_kilometer_from_textBox.Handle, EM_SETCUEBANNER, 0, "Не важно");
+            SendMessage(vehicle_search_kilometer_to_textBox.Handle, EM_SETCUEBANNER, 0, "Не важно");
+            SendMessage(vehicle_search_price_from_textBox.Handle, EM_SETCUEBANNER, 0, "Не важно");
+            SendMessage(vehicle_search_price_to_textBox.Handle, EM_SETCUEBANNER, 0, "Не важно");
+            SendMessage(vehicle_search_power_from_textBox.Handle, EM_SETCUEBANNER, 0, "Не важно");
+            SendMessage(vehicle_search_power_to_textBox.Handle, EM_SETCUEBANNER, 0, "Не важно");
+
+            SendMessage(engine_cubic_capacity_from_textBox.Handle, EM_SETCUEBANNER, 0, "Не важно");
+            SendMessage(engine_cubic_capacity_from_textBox.Handle, EM_SETCUEBANNER, 0, "Не важно");
+
+            SendMessage(environment_fuel_consumption_from_textBox.Handle, EM_SETCUEBANNER, 0, "Не важно");
+            SendMessage(environment_fuel_consumption_from_textBox.Handle, EM_SETCUEBANNER, 0, "Не важно");
+
+            this.ActiveControl = search_cars_button;
         }
 
         private void search_config_main_panel_Paint(object sender, PaintEventArgs e)
