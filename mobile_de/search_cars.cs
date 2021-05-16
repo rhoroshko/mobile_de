@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -107,7 +108,6 @@ namespace mobile_de
         private void scores_config_select_button_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.Multiselect = true;
             openFileDialog.Filter = "JSON file (*.json)|*.json";
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
@@ -150,12 +150,27 @@ namespace mobile_de
             saveFileDialog.Filter = "CSV file (*.csv)|*.csv";
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
-                MessageBox.Show($"Magic is happening...{Environment.NewLine}Output file:{Environment.NewLine}{saveFileDialog.FileName}"
-                    ,""
-                    ,MessageBoxButtons.OK);
-                //TODO
+                string strCmdText;
+                string pythonFile = Path.Combine(Environment.CurrentDirectory, @"scripts\main.py");
+                string filterFiles = String.Empty;
+                string scoresFile = (string)scores_config_listBox.Items[0];
+                string outputFile = saveFileDialog.FileName;
 
-                
+                foreach (string li in search_config_listBox.Items)
+                {
+                    filterFiles += $"{li}*";
+                }
+
+                if (filterFiles.Length > 0)
+                {
+                    filterFiles = filterFiles.TrimEnd('*');
+                }
+
+                strCmdText = $"/C python \"{pythonFile}\" -f \"{filterFiles}\" -s \"{scoresFile}\" -o \"{saveFileDialog.FileName}\" -m \"all\"& pause";
+
+                System.Diagnostics.Process.Start("CMD.exe", strCmdText).WaitForExit();
+
+                MessageBox.Show($"Потск автомобилей завершён. Поверте результат:{Environment.NewLine}{outputFile}", "", MessageBoxButtons.OK);
             }
         }
     }
