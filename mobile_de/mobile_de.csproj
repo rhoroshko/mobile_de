@@ -66,6 +66,9 @@
     <Compile Include="create_search_config_file.Designer.cs">
       <DependentUpon>create_search_config_file.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListBoxWithPlaceholderText.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="search_cars.cs">

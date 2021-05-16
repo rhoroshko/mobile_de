@@ -24,10 +24,29 @@ namespace mobile_de
             search_cars_start_button.Enabled = (search_config_listBox.Items.Count > 0 && scores_config_listBox.Items.Count > 0);
         }
 
+        private void SetListBoxBackgoundColor(ListBoxWithPlaceholderText listBox)
+        {
+            if (listBox.Items.Count == 0)
+            {
+                listBox.BackColor = System.Drawing.SystemColors.Control;
+            }
+            else
+            {
+                listBox.BackColor = System.Drawing.SystemColors.Window;
+            }
+        }
+
+        private void SetAllListBoxesBackgoundColor()
+        {
+            SetListBoxBackgoundColor(search_config_listBox);
+            SetListBoxBackgoundColor(scores_config_listBox);
+        }
+
         private void search_cars_Load(object sender, EventArgs e)
         {
             this.ActiveControl = search_cars_start_button;
 
+            SetAllListBoxesBackgoundColor();
             SetButtonsEditable();
         }
 
@@ -41,11 +60,13 @@ namespace mobile_de
         {
             search_config_listBox.Items.Clear();
 
+            SetAllListBoxesBackgoundColor();
             SetButtonsEditable();
         }
 
         private void search_config_listBox_SelectedIndexChanged(object sender, EventArgs e)
         {
+            SetAllListBoxesBackgoundColor();
             SetButtonsEditable();
         }
 
@@ -65,6 +86,7 @@ namespace mobile_de
                 }
             }
 
+            SetAllListBoxesBackgoundColor();
             SetButtonsEditable();
         }
 
@@ -76,6 +98,7 @@ namespace mobile_de
                 search_config_listBox.Items.Remove(item);
             }
 
+            SetAllListBoxesBackgoundColor();
             SetButtonsEditable();
         }
 
@@ -99,6 +122,7 @@ namespace mobile_de
         {
             scores_config_listBox.Items.Clear();
 
+            SetAllListBoxesBackgoundColor();
             SetButtonsEditable();
         }
 
@@ -131,6 +155,7 @@ namespace mobile_de
                 scores_config_listBox.Items.Add(openFileDialog.FileName);
             }
 
+            SetAllListBoxesBackgoundColor();
             SetButtonsEditable();
         }
 

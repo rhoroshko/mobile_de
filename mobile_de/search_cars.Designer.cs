@@ -33,13 +33,13 @@
             this.scores_config_groupBox = new System.Windows.Forms.GroupBox();
             this.scores_config_select_button = new System.Windows.Forms.Button();
             this.scores_config_create_button = new System.Windows.Forms.Button();
-            this.scores_config_listBox = new System.Windows.Forms.ListBox();
+            this.scores_config_listBox = new mobile_de.ListBoxWithPlaceholderText();
             this.scores_config_clear_button = new System.Windows.Forms.Button();
             this.search_config_groupBox = new System.Windows.Forms.GroupBox();
             this.search_config_remove_button = new System.Windows.Forms.Button();
             this.search_config_add_button = new System.Windows.Forms.Button();
             this.search_config_create_button = new System.Windows.Forms.Button();
-            this.search_config_listBox = new System.Windows.Forms.ListBox();
+            this.search_config_listBox = new mobile_de.ListBoxWithPlaceholderText();
             this.search_config_clear_button = new System.Windows.Forms.Button();
             this.botton_tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.search_cars_start_button = new System.Windows.Forms.Button();
@@ -107,6 +107,7 @@
             // 
             this.scores_config_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.scores_config_listBox.EmptyText = "Укажите файл конфигурации оценек";
             this.scores_config_listBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.scores_config_listBox.FormattingEnabled = true;
             this.scores_config_listBox.Location = new System.Drawing.Point(5, 31);
@@ -186,6 +187,7 @@
             // 
             this.search_config_listBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.search_config_listBox.EmptyText = "Укажите файл конфигурации фильтра поиска";
             this.search_config_listBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.search_config_listBox.FormattingEnabled = true;
             this.search_config_listBox.Location = new System.Drawing.Point(5, 31);
@@ -262,14 +264,14 @@
         private System.Windows.Forms.Button search_cars_start_button;
         private System.Windows.Forms.GroupBox search_config_groupBox;
         private System.Windows.Forms.Button search_config_clear_button;
-        private System.Windows.Forms.ListBox search_config_listBox;
         private System.Windows.Forms.Button search_config_add_button;
         private System.Windows.Forms.Button search_config_create_button;
         private System.Windows.Forms.GroupBox scores_config_groupBox;
         private System.Windows.Forms.Button scores_config_select_button;
         private System.Windows.Forms.Button scores_config_create_button;
-        private System.Windows.Forms.ListBox scores_config_listBox;
         private System.Windows.Forms.Button scores_config_clear_button;
         private System.Windows.Forms.Button search_config_remove_button;
+        private ListBoxWithPlaceholderText search_config_listBox;
+        private ListBoxWithPlaceholderText scores_config_listBox;
     }
 }
